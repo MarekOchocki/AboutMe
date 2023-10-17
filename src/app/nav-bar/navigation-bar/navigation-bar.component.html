@@ -1,0 +1,12 @@
+<div id="navigation-bar">
+  <div id="space-left"></div>
+  <ul id="navigation-bar-elements-list">
+    <li class="navigation-bar-element" *ngFor="let element of elements">
+      <a class="navigation-link" [ngClass]="{'navigation-link-selected': isSelected(element)}" [routerLink]="element.routerLink">
+        <mat-icon class="navigation-icon">{{element.iconName}}</mat-icon>
+        {{element.displayText}}
+      </a>
+    </li>
+  </ul>
+  <div id="space-right"></div>
+</div>

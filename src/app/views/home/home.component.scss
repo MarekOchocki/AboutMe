@@ -1,0 +1,43 @@
+@use "../../../styles/colors.scss" as colors;
+
+#home-greetings-root {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#home-greetings-text {
+  grid-column: 1 / 2;
+}
+
+#home-greetings-image {
+  grid-column: 2 / 3;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#name-greeting {
+  font-size: 50px;
+  font-weight: 400;
+  color: colors.$light-text-color;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: colors.$highlight-text-color;
+  border-width: 2px;
+  padding: 30px;
+  width: fit-content;
+}
+
+.home-greetings-icon {
+  color: colors.$highlight-text-color;
+  transform: scale(5);
+}
+
+.home-greetings-icon-forward {
+  @extend .home-greetings-icon;
+  transform: scale(4);
+}
+
+span {
+  color: colors.$highlight-text-color;
+}

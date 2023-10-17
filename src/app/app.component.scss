@@ -1,0 +1,20 @@
+#content-root {
+  padding-top: 80px;
+  height: 2000px;
+  background: linear-gradient(0deg, rgb(3, 24, 53) 0%, rgb(3, 24, 53) 0%, rgb(22 25 37) 100%);
+  display: grid;
+  grid-template-columns: 1fr 1200px 1fr;
+}
+
+
+#space-left {
+  grid-column: 1 / 2;
+}
+
+#space-center {
+  grid-column: 2 / 3;
+}
+
+#space-right {
+  grid-column: 3 / 4;
+}

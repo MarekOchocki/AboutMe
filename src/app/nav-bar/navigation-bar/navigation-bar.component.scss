@@ -1,0 +1,60 @@
+@use "../../../styles/colors.scss" as colors;
+
+$navigation-bar-color: #01070a;
+$hover-navigation-bar-color: #182b46;
+
+#navigation-bar {
+  background-color: $navigation-bar-color;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  display: grid;
+  grid-template-columns: 1fr 900px 1fr;
+}
+
+#navigation-bar-elements-list {
+  display: flex;
+  grid-column: 2 / 3;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+
+.navigation-bar-element {
+  &:hover {
+    background-color: $hover-navigation-bar-color;
+  }
+  border-radius: 6px;
+  display: inline-flex;
+}
+
+.navigation-link {
+  color: colors.$white-text-color;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 10px 30px;
+
+  display: flex;
+  align-items: center;
+
+  &.navigation-link-selected {
+    border-bottom-color: #2a416d;
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+  }
+}
+
+.navigation-icon {
+  color: colors.$white-text-color;
+  padding-right: 10px;
+}
+
+#space-left {
+  grid-column: 1 / 2;
+}
+
+#space-right {
+  grid-column: 3 / 4;
+}
