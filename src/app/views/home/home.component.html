@@ -1,12 +1,18 @@
 <div id="home-greetings-root">
   <span id="home-greetings-text">
     <h1 id="name-greeting">Hi, I'm <span>Marek Ochocki</span></h1>
-    <h2 style="font-size: 40px; font-weight: 400; color: #98c0e4">A <span>Professional Software Engineer</span> with over 3 years of commercial experience that turns <span>ideas</span> into <span>reality</span>.</h2>
-    <h3 style="font-size: 20px; font-weight: 400; color: #98c0e4">Welcome to my page.</h3>
+    <h2 id="description-greeting">A <span>Professional Software Engineer</span> with over 3 years of commercial experience that turns <span>ideas</span> into <span>reality</span>.</h2>
   </span>
-  <span id="home-greetings-image">
-    <mat-icon class="home-greetings-icon">bubble_chart</mat-icon>
-    <mat-icon class="home-greetings-icon-forward">forward</mat-icon>
-    <mat-icon class="home-greetings-icon">assignment_turned_in</mat-icon>
+  <span id="greetings-right-side">
+    <div id="home-greetings-image">
+      <mat-icon class="home-greetings-icon">bubble_chart</mat-icon>
+      <mat-icon class="home-greetings-icon-forward">forward</mat-icon>
+      <mat-icon class="home-greetings-icon">assignment_turned_in</mat-icon>
+    </div>
+    <div id="projects-button-container">
+      <button id="projects-button" (click)="goToProjects()">
+        Projects
+      </button>
+    </div>
   </span>
 </div>

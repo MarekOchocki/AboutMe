@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
+import { Router } from '@angular/router';
 
 class NavigationElement {
   constructor(public displayText: string, public iconName: string, public routerLink: string) {}
@@ -16,9 +16,9 @@ export class NavigationBarComponent {
   constructor(private router: Router) {
     this.elements = [
       new NavigationElement('Home', 'home', '/home'),
-      new NavigationElement('Projects', 'assignment', '/projects'), // TODO: maybe assignment_turned_in icon?
+      new NavigationElement('Projects', 'assignment', '/projects'),
       new NavigationElement('Coding', 'code', '/coding'),
-      new NavigationElement('Contact', 'mail', '/contact'),
+      new NavigationElement('Contact', 'mail', '/contact')
     ];
   }
 

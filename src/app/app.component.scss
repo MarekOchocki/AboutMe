@@ -1,11 +1,13 @@
+#root-div {
+  height: 100%;
+}
+
 #content-root {
   padding-top: 80px;
-  height: 2000px;
-  background: linear-gradient(0deg, rgb(3, 24, 53) 0%, rgb(3, 24, 53) 0%, rgb(22 25 37) 100%);
+  height: calc(100% - 80px);
   display: grid;
   grid-template-columns: 1fr 1200px 1fr;
 }
-
 
 #space-left {
   grid-column: 1 / 2;
