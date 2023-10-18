@@ -1,16 +1,14 @@
 @use "../../../styles/colors.scss" as colors;
 
-$navigation-bar-color: #01070a;
-$hover-navigation-bar-color: #182b46;
-
 #navigation-bar {
-  background-color: $navigation-bar-color;
+  background-color: colors.$black;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 100;
   display: grid;
   grid-template-columns: 1fr 900px 1fr;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 #navigation-bar-elements-list {
@@ -19,30 +17,42 @@ $hover-navigation-bar-color: #182b46;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 0;
+  padding: 0;
 }
 
 .navigation-bar-element {
   &:hover {
-    background-color: $hover-navigation-bar-color;
+    background-color: colors.$hover-black;
   }
-  border-radius: 6px;
   display: inline-flex;
+  width: calc(100% / 4);
+  
+  border-right: 1px solid colors.$white-text-color;
+
+  &:last-child {
+    border-right: none;
+  }
 }
 
 .navigation-link {
   color: colors.$white-text-color;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
-  padding: 10px 30px;
+  margin-bottom: 0;
+  margin: 10px 30px;
+  padding-bottom: 5px;
 
   display: flex;
   align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-bottom-width: 4px;
+  border-bottom-style: solid;
+  border-bottom-color: #00000000;
 
   &.navigation-link-selected {
-    border-bottom-color: #2a416d;
-    border-bottom-width: 4px;
-    border-bottom-style: solid;
+    border-bottom-color: colors.$highlight-text-color;
   }
 }
 
@@ -53,6 +63,21 @@ $hover-navigation-bar-color: #182b46;
 
 #space-left {
   grid-column: 1 / 2;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#logo-container {
+  color: colors.$black;
+  font-size: 40px;
+  font-weight: 500;
+  padding: 5px;
+  margin-right: 80px;
+  background-color: colors.$highlight-text-color;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
 }
 
 #space-right {

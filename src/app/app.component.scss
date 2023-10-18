@@ -3,20 +3,7 @@
 }
 
 #content-root {
-  padding-top: 80px;
-  height: calc(100% - 80px);
-  display: grid;
-  grid-template-columns: 1fr 1200px 1fr;
-}
-
-#space-left {
-  grid-column: 1 / 2;
-}
-
-#space-center {
-  grid-column: 2 / 3;
-}
-
-#space-right {
-  grid-column: 3 / 4;
+  padding-top: 69px;
+  height: calc(100% - 69px);
+  width: 100%;
 }

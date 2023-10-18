@@ -1,0 +1,28 @@
+
+#projects-content-container {
+  display: grid;
+  margin-top: 40px;
+  grid-template-columns: 1fr 300px 900px 1fr;
+  height: calc(100% - 40px);
+}
+
+#projects-list {
+  grid-column: 2 / 3;
+  background-color: rgb(63 63 69);
+  border-radius: 20px 20px 20px 20px;
+  margin-right: 20px;
+  height: fit-content;
+  min-height: 600px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+}
+
+#projects-details {
+  grid-column: 3 / 4;
+  background-color: rgb(63 63 69);
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+}
+
+#projects-details-content {
+  height: 2000px;
+}

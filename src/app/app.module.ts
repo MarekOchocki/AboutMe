@@ -10,6 +10,8 @@ import { ProjectsComponent } from './views/projects/projects.component';
 import {MatIconModule} from '@angular/material/icon';
 import { CodingComponent } from './views/coding/coding.component';
 import { ContactComponent } from './views/contact/contact.component';
+import { HomeGreetingsComponent } from './views/home/home-greetings/home-greetings.component';
+import { HomeAboutDetailsComponent } from './views/home/home-about-details/home-about-details.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { ContactComponent } from './views/contact/contact.component';
     HomeComponent,
     ProjectsComponent,
     CodingComponent,
-    ContactComponent
+    ContactComponent,
+    HomeGreetingsComponent,
+    HomeAboutDetailsComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,97 @@
+@use "../../../../styles/colors.scss" as colors;
+
+#home-greetings-root {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100%;
+}
+
+#home-greetings-text {
+  grid-column: 1 / 2;
+  margin-top: 150px;
+  margin-bottom: 50px;
+
+  span {
+    color: colors.$highlight-text-color;
+  }
+}
+
+#greetings-right-side {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+#about-details-container {
+  grid-row: 2 / 3;
+  background-color: colors.$light-gray;
+}
+
+#home-greetings-image {
+  grid-row: 1 / 2;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 70px;
+  align-items: flex-end;
+}
+
+#projects-button-container {
+  grid-row: 2 / 3;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#projects-button {
+  font-size: 50px;
+  width: 400px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  border: none;
+  color: colors.$black;
+  background-color: colors.$highlight-text-color;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #cdba50;
+  }
+}
+
+#name-greeting {
+  font-size: 40px;
+  font-weight: 400;
+  color: colors.$light-text-color;
+}
+
+#name {
+  font-size: 90px;
+  font-weight: 400;
+  color: colors.$highlight-text-color;
+}
+
+#description-greeting {
+  font-size: 30px;
+  font-weight: 400;
+  color: colors.$light-text-color;
+}
+
+.home-greetings-icon {
+  color: colors.$highlight-text-color;
+  transform: scale(5);
+}
+
+.home-greetings-icon-forward {
+  @extend .home-greetings-icon;
+  transform: scale(4);
+}
+
+.short-text-separator {
+  background: colors.$highlight-text-color;
+  border: none;
+  width: 200px;
+  height: 3px;
+  border-radius: 1px;
+  margin: 10px 0 10px 5px;
+}

@@ -1,5 +1,7 @@
 <div id="navigation-bar">
-  <div id="space-left"></div>
+  <div id="space-left">
+    <button id="logo-container" (click)="goToHome()"><b>MO</b></button>
+  </div>
   <ul id="navigation-bar-elements-list">
     <li class="navigation-bar-element" *ngFor="let element of elements">
       <a class="navigation-link" [ngClass]="{'navigation-link-selected': isSelected(element)}" [routerLink]="element.routerLink">

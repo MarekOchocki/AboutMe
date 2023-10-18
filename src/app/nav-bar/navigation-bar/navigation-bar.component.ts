@@ -25,4 +25,8 @@ export class NavigationBarComponent {
   public isSelected(element: NavigationElement): boolean {
     return this.router.url === element.routerLink;
   }
+
+  public goToHome(): void {
+    this.router.navigateByUrl('/home');
+  }
 }
