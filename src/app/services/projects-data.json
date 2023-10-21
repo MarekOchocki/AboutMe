@@ -1,0 +1,30 @@
+{
+  "projects": [
+    {
+      "name": "About Me Page",
+      "sections": [
+        {
+          "name": "Overview",
+          "subsections": []
+        },
+        {
+          "name": "Technologies",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "name": "Factorio Calculator",
+      "sections": [
+        {
+          "name": "Features",
+          "subsections": []
+        },
+        {
+          "name": "Try it",
+          "subsections": []
+        }
+      ]
+    }
+  ]
+}

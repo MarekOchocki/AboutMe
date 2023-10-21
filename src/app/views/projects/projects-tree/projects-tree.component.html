@@ -1,0 +1,20 @@
+<div id="projects-tree-container">
+  <div *ngFor="let project of treeElements">
+
+    <button class="project-element-button tree-element"
+      [ngClass]='{"element-selected": isProjectSelected(project.readableId)}'
+      (click)="toggleProject(project.displayName)">
+      <span>{{project.displayName}}</span>
+      <mat-icon [ngClass]="{'icon-collapsed': project.isCollapsed }">keyboard_arrow_right</mat-icon>
+    </button>
+
+    <div class="sections-container" [ngClass]='{"sections-list-collapsed": project.isCollapsed}'>
+      <button (click)="navigateTo(section.readableId)" *ngFor="let section of project.sections"
+        class="section-element-button tree-element"
+        [ngClass]='{"element-selected": isSectionSelected(section.readableId)}'>
+        <span>{{section.displayName}}</span>
+      </button>
+    </div>
+
+  </div>
+</div>

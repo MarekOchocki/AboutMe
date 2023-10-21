@@ -4,9 +4,11 @@
   </div>
   <ul id="navigation-bar-elements-list">
     <li class="navigation-bar-element" *ngFor="let element of elements">
-      <a class="navigation-link" [ngClass]="{'navigation-link-selected': isSelected(element)}" [routerLink]="element.routerLink">
-        <mat-icon class="navigation-icon">{{element.iconName}}</mat-icon>
-        {{element.displayText}}
+      <a class="navigation-link" [routerLink]="element.routerLink">
+        <span [ngClass]="{'navigation-link-selected': isSelected(element)}">
+          <mat-icon class="navigation-icon">{{element.iconName}}</mat-icon>
+          {{element.displayText}}
+        </span>
       </a>
     </li>
   </ul>

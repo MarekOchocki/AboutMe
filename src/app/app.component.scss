@@ -1,9 +1,11 @@
 #root-div {
   height: 100%;
+  overflow-y: auto;
 }
 
 #content-root {
-  padding-top: 69px;
+  margin-top: 69px;
   height: calc(100% - 69px);
   width: 100%;
+  overflow-y: scroll;
 }

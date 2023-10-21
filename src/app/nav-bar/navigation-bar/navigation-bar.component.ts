@@ -23,7 +23,7 @@ export class NavigationBarComponent {
   }
 
   public isSelected(element: NavigationElement): boolean {
-    return this.router.url === element.routerLink;
+    return this.router.url.startsWith(element.routerLink);
   }
 
   public goToHome(): void {

@@ -6,12 +6,18 @@ import { CodingComponent } from './views/coding/coding.component';
 import { ContactComponent } from './views/contact/contact.component';
 
 const routes: Routes = [
-  {path: "home", component: HomeComponent},
-  {path: "projects", component: ProjectsComponent},
-  {path: "coding", component: CodingComponent},
-  {path: "contact", component: ContactComponent},
-  {path: "", redirectTo: "/home", pathMatch: "full"},
-  {path: "**", redirectTo: "/home"}
+  { path: "home", component: HomeComponent },
+  {
+    path: "projects",
+    children: [
+      { path: ":project/:section", component: ProjectsComponent },
+      { path: "**", redirectTo: "/projects/about-me-page/overview" }
+    ],
+  },
+  { path: "coding", component: CodingComponent },
+  { path: "contact", component: ContactComponent },
+  { path: "", redirectTo: "/home", pathMatch: "full" },
+  { path: "**", redirectTo: "/home" }
 ];
 
 @NgModule({

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { trigger, state, style, transition, animate, keyframes } from '@angular/animations';
+import { trigger, style, transition, animate, keyframes } from '@angular/animations';
 
 @Component({
   selector: 'app-projects',
@@ -17,5 +17,9 @@ import { trigger, state, style, transition, animate, keyframes } from '@angular/
   )]
 })
 export class ProjectsComponent {
+  elements: number[];
 
+  constructor() {
+    this.elements = Array(20).fill(1);
+  }
 }

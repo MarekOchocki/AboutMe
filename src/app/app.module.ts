@@ -12,6 +12,7 @@ import { CodingComponent } from './views/coding/coding.component';
 import { ContactComponent } from './views/contact/contact.component';
 import { HomeGreetingsComponent } from './views/home/home-greetings/home-greetings.component';
 import { HomeAboutDetailsComponent } from './views/home/home-about-details/home-about-details.component';
+import { ProjectsTreeComponent } from './views/projects/projects-tree/projects-tree.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { HomeAboutDetailsComponent } from './views/home/home-about-details/home-
     CodingComponent,
     ContactComponent,
     HomeGreetingsComponent,
-    HomeAboutDetailsComponent
+    HomeAboutDetailsComponent,
+    ProjectsTreeComponent
   ],
   imports: [
     BrowserModule,

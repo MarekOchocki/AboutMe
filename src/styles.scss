@@ -34,6 +34,9 @@ $about-me-theme: mat.define-light-theme((
 @include mat.all-component-themes($about-me-theme);
 
 /* You can add global styles to this file, and also import other style files */
+html {
+  color-scheme: dark;
+}
 
 html, body { height: 100%; }
 
