@@ -1,0 +1,8 @@
+<div id="projects-details-container">
+  <div [@fadeInOut]="isVisible ? 'visible' : 'invisible'" id="projects-details">
+    <div id="projects-details-content">
+      <app-projects-content-subsection *ngFor="let subsection of sectionContent.subsections" [subsection]="subsection">
+      </app-projects-content-subsection>
+    </div>
+  </div>
+</div>

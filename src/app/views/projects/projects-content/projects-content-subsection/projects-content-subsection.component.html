@@ -1,0 +1,6 @@
+<div *ngIf="subsection">
+  <h1 id="subsection-title">{{ subsection.title }}</h1>
+  <app-projects-content-paragraph *ngFor="let paragraph of subsection.paragraphs" [paragraph]="paragraph">
+
+  </app-projects-content-paragraph>
+</div>

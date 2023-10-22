@@ -46,3 +46,12 @@ body {
   background-color: rgb(41 41 45);
   // background-image: radial-gradient(rgb(8 9 28), rgb(25 26 43));
 }
+
+a {
+  color: #7bc2ff;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

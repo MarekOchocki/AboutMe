@@ -14,7 +14,12 @@ export interface VideoProjectParagraph {
   videoUrl: string;
 }
 
-export type ProjectParagraph = TextProjectParagraph | ImageProjectParagraph | VideoProjectParagraph;
+export interface CustomComponentParagraph {
+  type: 'component';
+  htmlTag: string;
+}
+
+export type ProjectParagraph = TextProjectParagraph | ImageProjectParagraph | VideoProjectParagraph | CustomComponentParagraph;
 
 export interface ProjectSubsection {
   title: string;

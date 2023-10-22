@@ -13,12 +13,6 @@ import { trigger, style, transition, animate, keyframes } from '@angular/animati
           style({ opacity: '0' }),
           style({ opacity: '1' })
         ]))
-      ]),
-      transition(':leave', [
-        animate('0.3s', keyframes([
-          style({ opacity: '1' }),
-          style({ opacity: '0' })
-        ]))
       ])
     ],
   )]

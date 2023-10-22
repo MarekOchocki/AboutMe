@@ -13,6 +13,11 @@ import { ContactComponent } from './views/contact/contact.component';
 import { HomeGreetingsComponent } from './views/home/home-greetings/home-greetings.component';
 import { HomeAboutDetailsComponent } from './views/home/home-about-details/home-about-details.component';
 import { ProjectsTreeComponent } from './views/projects/projects-tree/projects-tree.component';
+import { ProjectsContentComponent } from './views/projects/projects-content/projects-content.component';
+import { ProjectsContentParagraphComponent } from './views/projects/projects-content/projects-content-paragraph/projects-content-paragraph.component';
+import { ProjectsContentSubsectionComponent } from './views/projects/projects-content/projects-content-subsection/projects-content-subsection.component';
+import { WebTechnologiesComponent } from './views/projects/projects-content/custom-paragraphs/web-technologies/web-technologies.component';
+import { CustomParagraphDirective } from './views/projects/projects-content/custom-paragraphs/custom-paragraph.directive';
 
 @NgModule({
   declarations: [
@@ -24,7 +29,12 @@ import { ProjectsTreeComponent } from './views/projects/projects-tree/projects-t
     ContactComponent,
     HomeGreetingsComponent,
     HomeAboutDetailsComponent,
-    ProjectsTreeComponent
+    ProjectsTreeComponent,
+    ProjectsContentComponent,
+    ProjectsContentParagraphComponent,
+    ProjectsContentSubsectionComponent,
+    WebTechnologiesComponent,
+    CustomParagraphDirective
   ],
   imports: [
     BrowserModule,

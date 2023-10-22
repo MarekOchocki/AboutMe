@@ -17,9 +17,4 @@ import { trigger, style, transition, animate, keyframes } from '@angular/animati
   )]
 })
 export class ProjectsComponent {
-  elements: number[];
-
-  constructor() {
-    this.elements = Array(20).fill(1);
-  }
 }

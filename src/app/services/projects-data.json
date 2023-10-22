@@ -5,11 +5,95 @@
       "sections": [
         {
           "name": "Overview",
-          "subsections": []
+          "subsections": [
+            {
+              "title": "Tech Stack",
+              "paragraphs": [
+                {
+                  "type": "text",
+                  "text": "This web page has been designed to serve as an interactive demonstration of my frontend web development expertise. I firmly uphold the belief that a tangible, real-life project is the most compelling testament to one's capabilities, and this online portfolio embodies that conviction."
+                },
+                {
+                  "type": "text",
+                  "text": "At its core, this project is built on the latest iteration of the Angular framework, specifically version 16. Angular, renowned for its versatility and robust features, provides a strong foundation for the integration of interactive elements and the creation of a user experience that is both seamless and engaging."
+                },
+                {
+                  "type": "text",
+                  "text": "To enhance the visual aesthetics and user experience, I opted for the utilization of SCSS (Sass), a powerful CSS preprocessor. Moreover, the implementation of Angular animations elevates the user experience by introducing fluidity and dynamism to the website."
+                },
+                {
+                  "type": "text",
+                  "text": "Furthermore, this project underscores my commitment to best practices in web development by embracing static typing through TypeScript. This decision is driven by the goal of reducing the occurrence of common type-related errors, ultimately enhancing the maintainability and stability of the codebase. In doing so, I prioritize the long-term performance and functionality of this online portfolio."
+                },
+                {
+                  "type": "component",
+                  "htmlTag": "app-web-technologies"
+                }
+              ]
+            },
+            {
+              "title": "Tools",
+              "paragraphs": [
+                {
+                  "type": "text",
+                  "text": "Drawing from my familiarity with Visual Studio Code, I employed it as the primary source code editor throughout the development of this project. It's a tool I've honed my skills with, enabling me to work efficiently and maintain a high standard of code quality."
+                },
+                {
+                  "type": "text",
+                  "text": "In the spirit of good development practices, I recognized the importance of implementing version control, even in a solo project. As such, I chose the industry-standard version control system, 'git.'"
+                },
+                {
+                  "type": "text",
+                  "text": "In the spirit of good development practices, I recognized the importance of implementing version control, even in a solo project. As such, I chose the industry-standard version control system, 'git.' For those interested in delving deeper into the technical aspects of this project, I've made the full source code available on my GitHub repository, which can be accessed here: <a href='https://github.com/MarekOchocki/AboutMe' target='_blank'>About Me Page Repository</a>."
+                }
+              ]
+            }
+          ]
         },
         {
-          "name": "Technologies",
-          "subsections": []
+          "name": "Features",
+          "subsections": [
+            {
+              "title": "Routing",
+              "paragraphs": [
+                {
+                  "type": "text",
+                  "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                },
+                {
+                  "type": "video",
+                  "videoUrl": "./assets/video/routing.mp4"
+                }
+              ]
+            },
+            {
+              "title": "Animations and Transitions",
+              "paragraphs": [
+                {
+                  "type": "text",
+                  "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                }
+              ]
+            },
+            {
+              "title": "Content as Json Asset",
+              "paragraphs": [
+                {
+                  "type": "text",
+                  "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                }
+              ]
+            },
+            {
+              "title": "Dynamic Angular Components",
+              "paragraphs": [
+                {
+                  "type": "text",
+                  "text": "To further ensure that the content of this page can be anything one of the types of the paragraphs is a 'custom component'. When the limitation of the paragraphs to be only a text section, image, or video, are making it hard to compose a compelling result, I can make a new angular component and add to the list of components available for embedding. Then anywhere in the JSON file I can make an entry with this custom component in any place or number and the webpage will automatically inject it where needed."
+                }
+              ]
+            }
+          ]
         }
       ]
     },
