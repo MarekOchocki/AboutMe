@@ -58,7 +58,7 @@
               "paragraphs": [
                 {
                   "type": "text",
-                  "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                  "text": "One of the features of this webpage is the implementation of a routing system. With this routing in place when you copy and share a link to a particular section, the content automatically adjusts, ensuring that the chosen section is displayed. This simplifies the sharing of content but also enhances the overall user experience."
                 },
                 {
                   "type": "video",
@@ -71,7 +71,7 @@
               "paragraphs": [
                 {
                   "type": "text",
-                  "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                  "text": "The use of subtle animations and transitions is intended to create a more seamless and enjoyable journey through the content. Instead of abrupt changes, the content gracefully fades in and out, making the transitions more user-friendly. They offer you the time to easily grasp and appreciate the changes as you explore the various sections of the page."
                 }
               ]
             },
@@ -80,7 +80,11 @@
               "paragraphs": [
                 {
                   "type": "text",
-                  "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                  "text": "Behind the scenes, I've structured the content using a JSON file with a specific format, allowing me to shape and customize it easily. Each section can contain multiple paragraphs, and these paragraphs can be of various types, such as text, video, image, or custom component. This separation of content from the underlying HTML and CSS makes editing and updating the website a straightforward process. Not only does this approach improve the ease of content management, but it also lays the foundation for potential future features, like dynamic language changes."
+                },
+                {
+                  "type": "video",
+                  "videoUrl": "./assets/video/json_content.mp4"
                 }
               ]
             },
@@ -89,7 +93,15 @@
               "paragraphs": [
                 {
                   "type": "text",
-                  "text": "To further ensure that the content of this page can be anything one of the types of the paragraphs is a 'custom component'. When the limitation of the paragraphs to be only a text section, image, or video, are making it hard to compose a compelling result, I can make a new angular component and add to the list of components available for embedding. Then anywhere in the JSON file I can make an entry with this custom component in any place or number and the webpage will automatically inject it where needed."
+                  "text": "In addition to the flexibility offered by various paragraph types, I've taken it a step further by introducing the concept of 'custom components.' This feature allows for virtually unlimited content possibilities. When the predefined paragraph types don't quite fit the vision for a particular section, I have the ability to create new Angular components and seamlessly integrate them into the webpage."
+                },
+                {
+                  "type": "text",
+                  "text": "This means that if a unique content element is needed, I can design a new Angular component and include it in the list of available components for embedding. Once added, this component can be inserted into the JSON file at any desired location or quantity. The webpage will automatically recognize and inject it precisely where it's needed, providing a tailored and dynamic user experience."
+                },
+                {
+                  "type": "text",
+                  "text": "One of such places is located in the 'overview' section of this project. The tech stack logo display had to be a custom component as it is made out of two rows of small images that would not present themselves aestetically in standard format."
                 }
               ]
             }
@@ -100,6 +112,10 @@
     {
       "name": "Factorio Calculator",
       "sections": [
+        {
+          "name": "Overview",
+          "subsections": []
+        },
         {
           "name": "Features",
           "subsections": []

@@ -13,4 +13,8 @@ export class HomeAboutDetailsComponent {
   public goToContact(): void {
     this.router.navigateByUrl('/contact');
   }
+
+  public goToProjects(): void {
+    this.router.navigateByUrl('/projects');
+  }
 }

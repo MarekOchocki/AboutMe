@@ -17,7 +17,6 @@ export class NavigationBarComponent {
     this.elements = [
       new NavigationElement('Home', 'home', '/home'),
       new NavigationElement('Projects', 'assignment', '/projects'),
-      new NavigationElement('Coding', 'code', '/coding'),
       new NavigationElement('Contact', 'mail', '/contact')
     ];
   }

@@ -43,22 +43,6 @@
   justify-content: space-evenly;
 }
 
-#projects-button {
-  font-size: 50px;
-  width: 400px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-radius: 10px;
-  border: none;
-  color: colors.$black;
-  background-color: colors.$highlight-text-color;
-  cursor: pointer;
-
-  &:hover {
-    background-color: #cdba50;
-  }
-}
-
 #name-greeting {
   font-size: 40px;
   font-weight: 400;
@@ -94,4 +78,27 @@
   height: 3px;
   border-radius: 1px;
   margin: 10px 0 10px 5px;
+}
+
+#cv-download-button {
+  width: 200px;
+  height: 80px;
+  font-size: 40px;
+  font-weight: 600;
+  border-radius: 10px;
+
+  padding: 10px;
+  border: none;
+  color: colors.$black;
+  background-color: colors.$highlight-text-color;
+  cursor: pointer;
+  box-shadow: 0 0 15px black;
+
+  &:hover {
+    background-color: #cdba50;
+  }
+}
+
+#download-cv-icon {
+  transform: scale(1.6);
 }
