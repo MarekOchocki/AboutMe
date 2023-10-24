@@ -1,0 +1,8 @@
+<div id="form-container">
+  <form>
+    <input autocomplete="off" id="input-element" type="text" (focus)="onFocus()" [placeholder]="placeholder" aria-label="string" [formControl]="addInputControl">
+    <div id="autocomplete" [ngClass]="{'hidden' : !showAutocomplete || (filteredOptions | async)?.length === 0}">
+      <div class="autocomplete-element" *ngFor="let option of filteredOptions | async" (click)="emitNewValue(option)">{{option | kebabToPrettyText}}</div>
+    </div>
+  </form>
+</div>

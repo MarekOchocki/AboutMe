@@ -1,0 +1,4037 @@
+{
+  "recipes": [
+    {
+      "input": [
+        {
+          "name": "iron-plate",
+          "count": 2
+        },
+        {
+          "name": "battery",
+          "count": 5
+        }
+      ],
+      "output": {
+        "name": "accumulator",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 10,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "electronic-circuit",
+          "count": 2
+        },
+        {
+          "name": "plastic-bar",
+          "count": 2
+        },
+        {
+          "name": "copper-cable",
+          "count": 4
+        }
+      ],
+      "output": {
+        "name": "advanced-circuit",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 6,
+      "maxProductivityModifier": 1.4
+    },
+    {
+      "input": [
+        {
+          "name": "copper-cable",
+          "count": 5
+        },
+        {
+          "name": "electronic-circuit",
+          "count": 5
+        }
+      ],
+      "output": {
+        "name": "arithmetic-combinator",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "explosive-cannon-shell",
+          "count": 4
+        },
+        {
+          "name": "radar",
+          "count": 1
+        },
+        {
+          "name": "explosives",
+          "count": 8
+        }
+      ],
+      "output": {
+        "name": "artillery-shell",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 15,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "processing-unit",
+          "count": 1
+        },
+        {
+          "name": "radar",
+          "count": 1
+        }
+      ],
+      "output": {
+        "name": "artillery-targeting-remote",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "steel-plate",
+          "count": 60
+        },
+        {
+          "name": "concrete",
+          "count": 60
+        },
+        {
+          "name": "iron-gear-wheel",
+          "count": 40
+        },
+        {
+          "name": "advanced-circuit",
+          "count": 20
+        }
+      ],
+      "output": {
+        "name": "artillery-turret",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 40,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "engine-unit",
+          "count": 64
+        },
+        {
+          "name": "iron-gear-wheel",
+          "count": 10
+        },
+        {
+          "name": "steel-plate",
+          "count": 40
+        },
+        {
+          "name": "pipe",
+          "count": 16
+        },
+        {
+          "name": "advanced-circuit",
+          "count": 20
+        }
+      ],
+      "output": {
+        "name": "artillery-wagon",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 4,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "electronic-circuit",
+          "count": 3
+        },
+        {
+          "name": "iron-gear-wheel",
+          "count": 5
+        },
+        {
+          "name": "iron-plate",
+          "count": 9
+        }
+      ],
+      "output": {
+        "name": "assembling-machine-1",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "steel-plate",
+          "count": 2
+        },
+        {
+          "name": "electronic-circuit",
+          "count": 3
+        },
+        {
+          "name": "iron-gear-wheel",
+          "count": 5
+        },
+        {
+          "name": "assembling-machine-1",
+          "count": 1
+        }
+      ],
+      "output": {
+        "name": "assembling-machine-2",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "speed-module",
+          "count": 4
+        },
+        {
+          "name": "assembling-machine-2",
+          "count": 2
+        }
+      ],
+      "output": {
+        "name": "assembling-machine-3",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "rocket-control-unit",
+          "count": 10
+        },
+        {
+          "name": "explosives",
+          "count": 10
+        },
+        {
+          "name": "uranium-235",
+          "count": 30
+        }
+      ],
+      "output": {
+        "name": "atomic-bomb",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 50,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "copper-plate",
+          "count": 1
+        },
+        {
+          "name": "iron-gear-wheel",
+          "count": 1
+        }
+      ],
+      "output": {
+        "name": "automation-science-pack",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 5,
+      "maxProductivityModifier": 1.4
+    },
+    {
+      "input": [
+        {
+          "name": "sulfuric-acid",
+          "count": 20
+        },
+        {
+          "name": "iron-plate",
+          "count": 1
+        },
+        {
+          "name": "copper-plate",
+          "count": 1
+        }
+      ],
+      "output": {
+        "name": "battery",
+        "count": 1
+      },
+      "machine": "Chemical Plant",
+      "craftingTime": 4,
+      "maxProductivityModifier": 1.3
+    },
+    {
+      "input": [
+        {
+          "name": "battery",
+          "count": 5
+        },
+        {
+          "name": "steel-plate",
+          "count": 10
+        }
+      ],
+      "output": {
+        "name": "battery-equipment",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 10,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "battery-equipment",
+          "count": 10
+        },
+        {
+          "name": "processing-unit",
+          "count": 15
+        },
+        {
+          "name": "low-density-structure",
+          "count": 5
+        }
+      ],
+      "output": {
+        "name": "battery-mk2-equipment",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 10,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "electronic-circuit",
+          "count": 20
+        },
+        {
+          "name": "advanced-circuit",
+          "count": 20
+        },
+        {
+          "name": "steel-plate",
+          "count": 10
+        },
+        {
+          "name": "copper-cable",
+          "count": 10
+        }
+      ],
+      "output": {
+        "name": "beacon",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 15,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "advanced-circuit",
+          "count": 5
+        },
+        {
+          "name": "steel-plate",
+          "count": 10
+        }
+      ],
+      "output": {
+        "name": "belt-immunity-equipment",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 10,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "iron-stick",
+          "count": 8
+        },
+        {
+          "name": "steel-plate",
+          "count": 5
+        },
+        {
+          "name": "copper-plate",
+          "count": 5
+        }
+      ],
+      "output": {
+        "name": "big-electric-pole",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "stone-furnace",
+          "count": 1
+        },
+        {
+          "name": "pipe",
+          "count": 4
+        }
+      ],
+      "output": {
+        "name": "boiler",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "iron-plate",
+          "count": 1
+        },
+        {
+          "name": "iron-gear-wheel",
+          "count": 1
+        }
+      ],
+      "output": {
+        "name": "burner-inserter",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "iron-gear-wheel",
+          "count": 3
+        },
+        {
+          "name": "stone-furnace",
+          "count": 1
+        },
+        {
+          "name": "iron-plate",
+          "count": 3
+        }
+      ],
+      "output": {
+        "name": "burner-mining-drill",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 2,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "steel-plate",
+          "count": 2
+        },
+        {
+          "name": "plastic-bar",
+          "count": 2
+        },
+        {
+          "name": "explosives",
+          "count": 1
+        }
+      ],
+      "output": {
+        "name": "cannon-shell",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 8,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "engine-unit",
+          "count": 8
+        },
+        {
+          "name": "iron-plate",
+          "count": 20
+        },
+        {
+          "name": "steel-plate",
+          "count": 5
+        }
+      ],
+      "output": {
+        "name": "car",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 2,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "iron-gear-wheel",
+          "count": 10
+        },
+        {
+          "name": "iron-plate",
+          "count": 20
+        },
+        {
+          "name": "steel-plate",
+          "count": 20
+        }
+      ],
+      "output": {
+        "name": "cargo-wagon",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 1,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "concrete",
+          "count": 100
+        },
+        {
+          "name": "steel-plate",
+          "count": 50
+        },
+        {
+          "name": "advanced-circuit",
+          "count": 100
+        },
+        {
+          "name": "iron-gear-wheel",
+          "count": 100
+        }
+      ],
+      "output": {
+        "name": "centrifuge",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 4,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "steel-plate",
+          "count": 5
+        },
+        {
+          "name": "iron-gear-wheel",
+          "count": 5
+        },
+        {
+          "name": "electronic-circuit",
+          "count": 5
+        },
+        {
+          "name": "pipe",
+          "count": 5
+        }
+      ],
+      "output": {
+        "name": "chemical-plant",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "engine-unit",
+          "count": 2
+        },
+        {
+          "name": "advanced-circuit",
+          "count": 3
+        },
+        {
+          "name": "sulfur",
+          "count": 1
+        }
+      ],
+      "output": {
+        "name": "chemical-science-pack",
+        "count": 2
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 24,
+      "maxProductivityModifier": 1.4
+    },
+    {
+      "input": [
+        {
+          "name": "explosives",
+          "count": 10
+        },
+        {
+          "name": "grenade",
+          "count": 1
+        },
+        {
+          "name": "empty-barrel",
+          "count": 1
+        }
+      ],
+      "output": {
+        "name": "cliff-explosives",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 8,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "grenade",
+          "count": 7
+        },
+        {
+          "name": "explosives",
+          "count": 5
+        },
+        {
+          "name": "steel-plate",
+          "count": 5
+        }
+      ],
+      "output": {
+        "name": "cluster-grenade",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 8,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "steel-plate",
+          "count": 15
+        },
+        {
+          "name": "iron-gear-wheel",
+          "count": 5
+        },
+        {
+          "name": "copper-plate",
+          "count": 10
+        },
+        {
+          "name": "wood",
+          "count": 10
+        }
+      ],
+      "output": {
+        "name": "combat-shotgun",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 10,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "stone-brick",
+          "count": 5
+        },
+        {
+          "name": "iron-ore",
+          "count": 1
+        },
+        {
+          "name": "water",
+          "count": 100
+        }
+      ],
+      "output": {
+        "name": "concrete",
+        "count": 10
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 10,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "copper-cable",
+          "count": 5
+        },
+        {
+          "name": "electronic-circuit",
+          "count": 2
+        }
+      ],
+      "output": {
+        "name": "constant-combinator",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "flying-robot-frame",
+          "count": 1
+        },
+        {
+          "name": "electronic-circuit",
+          "count": 2
+        }
+      ],
+      "output": {
+        "name": "construction-robot",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "copper-plate",
+          "count": 1
+        }
+      ],
+      "output": {
+        "name": "copper-cable",
+        "count": 2
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1.4
+    },
+    {
+      "input": [
+        {
+          "name": "copper-ore",
+          "count": 1
+        }
+      ],
+      "output": {
+        "name": "copper-plate",
+        "count": 1
+      },
+      "machine": "Furnace",
+      "craftingTime": 3.2,
+      "maxProductivityModifier": 1.2
+    },
+    {
+      "input": [
+        {
+          "name": "copper-cable",
+          "count": 5
+        },
+        {
+          "name": "electronic-circuit",
+          "count": 5
+        }
+      ],
+      "output": {
+        "name": "decider-combinator",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "piercing-rounds-magazine",
+          "count": 3
+        },
+        {
+          "name": "electronic-circuit",
+          "count": 3
+        },
+        {
+          "name": "iron-gear-wheel",
+          "count": 3
+        }
+      ],
+      "output": {
+        "name": "defender-capsule",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 8,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "distractor-capsule",
+          "count": 4
+        },
+        {
+          "name": "speed-module",
+          "count": 1
+        }
+      ],
+      "output": {
+        "name": "destroyer-capsule",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 15,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "processing-unit",
+          "count": 5
+        },
+        {
+          "name": "steel-plate",
+          "count": 20
+        },
+        {
+          "name": "laser-turret",
+          "count": 10
+        }
+      ],
+      "output": {
+        "name": "discharge-defense-equipment",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 10,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "electronic-circuit",
+          "count": 1
+        }
+      ],
+      "output": {
+        "name": "discharge-defense-remote",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "defender-capsule",
+          "count": 4
+        },
+        {
+          "name": "advanced-circuit",
+          "count": 3
+        }
+      ],
+      "output": {
+        "name": "distractor-capsule",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 15,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "advanced-circuit",
+          "count": 5
+        },
+        {
+          "name": "electronic-circuit",
+          "count": 5
+        }
+      ],
+      "output": {
+        "name": "effectivity-module",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 15,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "effectivity-module",
+          "count": 4
+        },
+        {
+          "name": "advanced-circuit",
+          "count": 5
+        },
+        {
+          "name": "processing-unit",
+          "count": 5
+        }
+      ],
+      "output": {
+        "name": "effectivity-module-2",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 30,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "effectivity-module-2",
+          "count": 5
+        },
+        {
+          "name": "advanced-circuit",
+          "count": 5
+        },
+        {
+          "name": "processing-unit",
+          "count": 5
+        }
+      ],
+      "output": {
+        "name": "effectivity-module-3",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 60,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "iron-plate",
+          "count": 2
+        },
+        {
+          "name": "electronic-circuit",
+          "count": 5
+        }
+      ],
+      "output": {
+        "name": "electric-energy-interface",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "engine-unit",
+          "count": 1
+        },
+        {
+          "name": "lubricant",
+          "count": 15
+        },
+        {
+          "name": "electronic-circuit",
+          "count": 2
+        }
+      ],
+      "output": {
+        "name": "electric-engine-unit",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 10,
+      "maxProductivityModifier": 1.4
+    },
+    {
+      "input": [
+        {
+          "name": "steel-plate",
+          "count": 10
+        },
+        {
+          "name": "advanced-circuit",
+          "count": 5
+        },
+        {
+          "name": "stone-brick",
+          "count": 10
+        }
+      ],
+      "output": {
+        "name": "electric-furnace",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "electronic-circuit",
+          "count": 3
+        },
+        {
+          "name": "iron-gear-wheel",
+          "count": 5
+        },
+        {
+          "name": "iron-plate",
+          "count": 10
+        }
+      ],
+      "output": {
+        "name": "electric-mining-drill",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 2,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "iron-plate",
+          "count": 1
+        },
+        {
+          "name": "copper-cable",
+          "count": 3
+        }
+      ],
+      "output": {
+        "name": "electronic-circuit",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1.4
+    },
+    {
+      "input": [
+        {
+          "name": "steel-plate",
+          "count": 1
+        }
+      ],
+      "output": {
+        "name": "empty-barrel",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 1,
+      "maxProductivityModifier": 1.4
+    },
+    {
+      "input": [
+        {
+          "name": "advanced-circuit",
+          "count": 5
+        },
+        {
+          "name": "steel-plate",
+          "count": 10
+        }
+      ],
+      "output": {
+        "name": "energy-shield-equipment",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 10,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "energy-shield-equipment",
+          "count": 10
+        },
+        {
+          "name": "processing-unit",
+          "count": 5
+        },
+        {
+          "name": "low-density-structure",
+          "count": 5
+        }
+      ],
+      "output": {
+        "name": "energy-shield-mk2-equipment",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 10,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "steel-plate",
+          "count": 1
+        },
+        {
+          "name": "iron-gear-wheel",
+          "count": 1
+        },
+        {
+          "name": "pipe",
+          "count": 2
+        }
+      ],
+      "output": {
+        "name": "engine-unit",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 10,
+      "maxProductivityModifier": 1.4
+    },
+    {
+      "input": [
+        {
+          "name": "processing-unit",
+          "count": 10
+        },
+        {
+          "name": "electric-engine-unit",
+          "count": 30
+        },
+        {
+          "name": "steel-plate",
+          "count": 20
+        }
+      ],
+      "output": {
+        "name": "exoskeleton-equipment",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 10,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "steel-plate",
+          "count": 2
+        },
+        {
+          "name": "plastic-bar",
+          "count": 2
+        },
+        {
+          "name": "explosives",
+          "count": 2
+        }
+      ],
+      "output": {
+        "name": "explosive-cannon-shell",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 8,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "rocket",
+          "count": 1
+        },
+        {
+          "name": "explosives",
+          "count": 2
+        }
+      ],
+      "output": {
+        "name": "explosive-rocket",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 8,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "explosive-cannon-shell",
+          "count": 1
+        },
+        {
+          "name": "uranium-238",
+          "count": 1
+        }
+      ],
+      "output": {
+        "name": "explosive-uranium-cannon-shell",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 12,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "sulfur",
+          "count": 1
+        },
+        {
+          "name": "coal",
+          "count": 1
+        },
+        {
+          "name": "water",
+          "count": 10
+        }
+      ],
+      "output": {
+        "name": "explosives",
+        "count": 2
+      },
+      "machine": "Chemical Plant",
+      "craftingTime": 4,
+      "maxProductivityModifier": 1.3
+    },
+    {
+      "input": [
+        {
+          "name": "express-transport-belt",
+          "count": 5
+        },
+        {
+          "name": "fast-loader",
+          "count": 1
+        }
+      ],
+      "output": {
+        "name": "express-loader",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 10,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "fast-splitter",
+          "count": 1
+        },
+        {
+          "name": "iron-gear-wheel",
+          "count": 10
+        },
+        {
+          "name": "advanced-circuit",
+          "count": 10
+        },
+        {
+          "name": "lubricant",
+          "count": 80
+        }
+      ],
+      "output": {
+        "name": "express-splitter",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 2,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "iron-gear-wheel",
+          "count": 10
+        },
+        {
+          "name": "fast-transport-belt",
+          "count": 1
+        },
+        {
+          "name": "lubricant",
+          "count": 20
+        }
+      ],
+      "output": {
+        "name": "express-transport-belt",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "iron-gear-wheel",
+          "count": 80
+        },
+        {
+          "name": "fast-underground-belt",
+          "count": 2
+        },
+        {
+          "name": "lubricant",
+          "count": 40
+        }
+      ],
+      "output": {
+        "name": "express-underground-belt",
+        "count": 2
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 2,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "electronic-circuit",
+          "count": 2
+        },
+        {
+          "name": "iron-plate",
+          "count": 2
+        },
+        {
+          "name": "inserter",
+          "count": 1
+        }
+      ],
+      "output": {
+        "name": "fast-inserter",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "fast-transport-belt",
+          "count": 5
+        },
+        {
+          "name": "loader",
+          "count": 1
+        }
+      ],
+      "output": {
+        "name": "fast-loader",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 3,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "splitter",
+          "count": 1
+        },
+        {
+          "name": "iron-gear-wheel",
+          "count": 10
+        },
+        {
+          "name": "electronic-circuit",
+          "count": 10
+        }
+      ],
+      "output": {
+        "name": "fast-splitter",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 2,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "iron-gear-wheel",
+          "count": 5
+        },
+        {
+          "name": "transport-belt",
+          "count": 1
+        }
+      ],
+      "output": {
+        "name": "fast-transport-belt",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "iron-gear-wheel",
+          "count": 40
+        },
+        {
+          "name": "underground-belt",
+          "count": 2
+        }
+      ],
+      "output": {
+        "name": "fast-underground-belt",
+        "count": 2
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 2,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "fast-inserter",
+          "count": 1
+        },
+        {
+          "name": "electronic-circuit",
+          "count": 4
+        }
+      ],
+      "output": {
+        "name": "filter-inserter",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "iron-plate",
+          "count": 4
+        }
+      ],
+      "output": {
+        "name": "firearm-magazine",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 1,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "steel-plate",
+          "count": 5
+        },
+        {
+          "name": "iron-gear-wheel",
+          "count": 10
+        }
+      ],
+      "output": {
+        "name": "flamethrower",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 10,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "steel-plate",
+          "count": 5
+        },
+        {
+          "name": "crude-oil",
+          "count": 100
+        }
+      ],
+      "output": {
+        "name": "flamethrower-ammo",
+        "count": 1
+      },
+      "machine": "Chemical Plant",
+      "craftingTime": 6,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "steel-plate",
+          "count": 30
+        },
+        {
+          "name": "iron-gear-wheel",
+          "count": 15
+        },
+        {
+          "name": "pipe",
+          "count": 10
+        },
+        {
+          "name": "engine-unit",
+          "count": 5
+        }
+      ],
+      "output": {
+        "name": "flamethrower-turret",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 20,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "iron-gear-wheel",
+          "count": 10
+        },
+        {
+          "name": "steel-plate",
+          "count": 16
+        },
+        {
+          "name": "pipe",
+          "count": 8
+        },
+        {
+          "name": "storage-tank",
+          "count": 1
+        }
+      ],
+      "output": {
+        "name": "fluid-wagon",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 1.5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "electric-engine-unit",
+          "count": 1
+        },
+        {
+          "name": "battery",
+          "count": 2
+        },
+        {
+          "name": "steel-plate",
+          "count": 1
+        },
+        {
+          "name": "electronic-circuit",
+          "count": 3
+        }
+      ],
+      "output": {
+        "name": "flying-robot-frame",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 20,
+      "maxProductivityModifier": 1.4
+    },
+    {
+      "input": [
+        {
+          "name": "processing-unit",
+          "count": 200
+        },
+        {
+          "name": "low-density-structure",
+          "count": 50
+        }
+      ],
+      "output": {
+        "name": "fusion-reactor-equipment",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 10,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "stone-wall",
+          "count": 1
+        },
+        {
+          "name": "steel-plate",
+          "count": 2
+        },
+        {
+          "name": "electronic-circuit",
+          "count": 2
+        }
+      ],
+      "output": {
+        "name": "gate",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "electronic-circuit",
+          "count": 1
+        },
+        {
+          "name": "copper-cable",
+          "count": 1
+        }
+      ],
+      "output": {
+        "name": "green-wire",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "iron-plate",
+          "count": 5
+        },
+        {
+          "name": "coal",
+          "count": 10
+        }
+      ],
+      "output": {
+        "name": "grenade",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 8,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "iron-gear-wheel",
+          "count": 10
+        },
+        {
+          "name": "copper-plate",
+          "count": 10
+        },
+        {
+          "name": "iron-plate",
+          "count": 20
+        }
+      ],
+      "output": {
+        "name": "gun-turret",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 8,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "concrete",
+          "count": 10
+        }
+      ],
+      "output": {
+        "name": "hazard-concrete",
+        "count": 10
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.25,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "steel-plate",
+          "count": 10
+        },
+        {
+          "name": "copper-plate",
+          "count": 100
+        },
+        {
+          "name": "pipe",
+          "count": 10
+        }
+      ],
+      "output": {
+        "name": "heat-exchanger",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 3,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "steel-plate",
+          "count": 10
+        },
+        {
+          "name": "copper-plate",
+          "count": 20
+        }
+      ],
+      "output": {
+        "name": "heat-pipe",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 1,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "copper-plate",
+          "count": 100
+        },
+        {
+          "name": "steel-plate",
+          "count": 50
+        }
+      ],
+      "output": {
+        "name": "heavy-armor",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 8,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "water",
+          "count": 30
+        },
+        {
+          "name": "heavy-oil",
+          "count": 40
+        }
+      ],
+      "output": {
+        "name": "light-oil",
+        "count": 30
+      },
+      "machine": "Chemical Plant",
+      "craftingTime": 2,
+      "maxProductivityModifier": 1.3
+    },
+    {
+      "input": [
+        {
+          "name": "electronic-circuit",
+          "count": 1
+        },
+        {
+          "name": "iron-gear-wheel",
+          "count": 1
+        },
+        {
+          "name": "iron-plate",
+          "count": 1
+        }
+      ],
+      "output": {
+        "name": "inserter",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "iron-plate",
+          "count": 8
+        }
+      ],
+      "output": {
+        "name": "iron-chest",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "iron-plate",
+          "count": 2
+        }
+      ],
+      "output": {
+        "name": "iron-gear-wheel",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1.4
+    },
+    {
+      "input": [
+        {
+          "name": "iron-ore",
+          "count": 1
+        }
+      ],
+      "output": {
+        "name": "iron-plate",
+        "count": 1
+      },
+      "machine": "Furnace",
+      "craftingTime": 3.2,
+      "maxProductivityModifier": 1.2
+    },
+    {
+      "input": [
+        {
+          "name": "iron-plate",
+          "count": 1
+        }
+      ],
+      "output": {
+        "name": "iron-stick",
+        "count": 2
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1.4
+    },
+    {
+      "input": [
+        {
+          "name": "electronic-circuit",
+          "count": 10
+        },
+        {
+          "name": "iron-gear-wheel",
+          "count": 10
+        },
+        {
+          "name": "transport-belt",
+          "count": 4
+        }
+      ],
+      "output": {
+        "name": "lab",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 2,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "steel-plate",
+          "count": 1
+        },
+        {
+          "name": "explosives",
+          "count": 2
+        }
+      ],
+      "output": {
+        "name": "land-mine",
+        "count": 4
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "stone",
+          "count": 20
+        }
+      ],
+      "output": {
+        "name": "landfill",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "steel-plate",
+          "count": 20
+        },
+        {
+          "name": "electronic-circuit",
+          "count": 20
+        },
+        {
+          "name": "battery",
+          "count": 12
+        }
+      ],
+      "output": {
+        "name": "laser-turret",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 20,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "iron-plate",
+          "count": 40
+        }
+      ],
+      "output": {
+        "name": "light-armor",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 3,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "water",
+          "count": 30
+        },
+        {
+          "name": "light-oil",
+          "count": 30
+        }
+      ],
+      "output": {
+        "name": "petroleum-gas",
+        "count": 20
+      },
+      "machine": "Chemical Plant",
+      "craftingTime": 2,
+      "maxProductivityModifier": 1.3
+    },
+    {
+      "input": [
+        {
+          "name": "inserter",
+          "count": 5
+        },
+        {
+          "name": "electronic-circuit",
+          "count": 5
+        },
+        {
+          "name": "iron-gear-wheel",
+          "count": 5
+        },
+        {
+          "name": "iron-plate",
+          "count": 5
+        },
+        {
+          "name": "transport-belt",
+          "count": 5
+        }
+      ],
+      "output": {
+        "name": "loader",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 1,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "engine-unit",
+          "count": 20
+        },
+        {
+          "name": "electronic-circuit",
+          "count": 10
+        },
+        {
+          "name": "steel-plate",
+          "count": 30
+        }
+      ],
+      "output": {
+        "name": "locomotive",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 4,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "steel-chest",
+          "count": 1
+        },
+        {
+          "name": "electronic-circuit",
+          "count": 3
+        },
+        {
+          "name": "advanced-circuit",
+          "count": 1
+        }
+      ],
+      "output": {
+        "name": "logistic-chest-active-provider",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "steel-chest",
+          "count": 1
+        },
+        {
+          "name": "electronic-circuit",
+          "count": 3
+        },
+        {
+          "name": "advanced-circuit",
+          "count": 1
+        }
+      ],
+      "output": {
+        "name": "logistic-chest-buffer",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "steel-chest",
+          "count": 1
+        },
+        {
+          "name": "electronic-circuit",
+          "count": 3
+        },
+        {
+          "name": "advanced-circuit",
+          "count": 1
+        }
+      ],
+      "output": {
+        "name": "logistic-chest-passive-provider",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "steel-chest",
+          "count": 1
+        },
+        {
+          "name": "electronic-circuit",
+          "count": 3
+        },
+        {
+          "name": "advanced-circuit",
+          "count": 1
+        }
+      ],
+      "output": {
+        "name": "logistic-chest-requester",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "steel-chest",
+          "count": 1
+        },
+        {
+          "name": "electronic-circuit",
+          "count": 3
+        },
+        {
+          "name": "advanced-circuit",
+          "count": 1
+        }
+      ],
+      "output": {
+        "name": "logistic-chest-storage",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "flying-robot-frame",
+          "count": 1
+        },
+        {
+          "name": "advanced-circuit",
+          "count": 2
+        }
+      ],
+      "output": {
+        "name": "logistic-robot",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "inserter",
+          "count": 1
+        },
+        {
+          "name": "transport-belt",
+          "count": 1
+        }
+      ],
+      "output": {
+        "name": "logistic-science-pack",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 6,
+      "maxProductivityModifier": 1.4
+    },
+    {
+      "input": [
+        {
+          "name": "iron-gear-wheel",
+          "count": 1
+        },
+        {
+          "name": "iron-plate",
+          "count": 1
+        },
+        {
+          "name": "inserter",
+          "count": 1
+        }
+      ],
+      "output": {
+        "name": "long-handed-inserter",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "steel-plate",
+          "count": 2
+        },
+        {
+          "name": "copper-plate",
+          "count": 20
+        },
+        {
+          "name": "plastic-bar",
+          "count": 5
+        }
+      ],
+      "output": {
+        "name": "low-density-structure",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 20,
+      "maxProductivityModifier": 1.4
+    },
+    {
+      "input": [
+        {
+          "name": "heavy-oil",
+          "count": 10
+        }
+      ],
+      "output": {
+        "name": "lubricant",
+        "count": 10
+      },
+      "machine": "Chemical Plant",
+      "craftingTime": 1,
+      "maxProductivityModifier": 1.3
+    },
+    {
+      "input": [
+        {
+          "name": "iron-stick",
+          "count": 4
+        },
+        {
+          "name": "steel-plate",
+          "count": 2
+        },
+        {
+          "name": "copper-plate",
+          "count": 2
+        }
+      ],
+      "output": {
+        "name": "medium-electric-pole",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "piercing-rounds-magazine",
+          "count": 1
+        },
+        {
+          "name": "grenade",
+          "count": 1
+        },
+        {
+          "name": "stone-wall",
+          "count": 2
+        }
+      ],
+      "output": {
+        "name": "military-science-pack",
+        "count": 2
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 10,
+      "maxProductivityModifier": 1.4
+    },
+    {
+      "input": [
+        {
+          "name": "advanced-circuit",
+          "count": 30
+        },
+        {
+          "name": "steel-plate",
+          "count": 50
+        }
+      ],
+      "output": {
+        "name": "modular-armor",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 15,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "advanced-circuit",
+          "count": 5
+        },
+        {
+          "name": "steel-plate",
+          "count": 10
+        }
+      ],
+      "output": {
+        "name": "night-vision-equipment",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 10,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "concrete",
+          "count": 500
+        },
+        {
+          "name": "steel-plate",
+          "count": 500
+        },
+        {
+          "name": "advanced-circuit",
+          "count": 500
+        },
+        {
+          "name": "copper-plate",
+          "count": 500
+        }
+      ],
+      "output": {
+        "name": "nuclear-reactor",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 8,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "electronic-circuit",
+          "count": 2
+        },
+        {
+          "name": "pipe",
+          "count": 1
+        },
+        {
+          "name": "iron-gear-wheel",
+          "count": 1
+        }
+      ],
+      "output": {
+        "name": "offshore-pump",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "steel-plate",
+          "count": 15
+        },
+        {
+          "name": "iron-gear-wheel",
+          "count": 10
+        },
+        {
+          "name": "stone-brick",
+          "count": 10
+        },
+        {
+          "name": "electronic-circuit",
+          "count": 10
+        },
+        {
+          "name": "pipe",
+          "count": 10
+        }
+      ],
+      "output": {
+        "name": "oil-refinery",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 8,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "processing-unit",
+          "count": 20
+        },
+        {
+          "name": "low-density-structure",
+          "count": 5
+        },
+        {
+          "name": "laser-turret",
+          "count": 5
+        }
+      ],
+      "output": {
+        "name": "personal-laser-defense-equipment",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 10,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "advanced-circuit",
+          "count": 10
+        },
+        {
+          "name": "iron-gear-wheel",
+          "count": 40
+        },
+        {
+          "name": "steel-plate",
+          "count": 20
+        },
+        {
+          "name": "battery",
+          "count": 45
+        }
+      ],
+      "output": {
+        "name": "personal-roboport-equipment",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 10,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "personal-roboport-equipment",
+          "count": 5
+        },
+        {
+          "name": "processing-unit",
+          "count": 100
+        },
+        {
+          "name": "low-density-structure",
+          "count": 20
+        }
+      ],
+      "output": {
+        "name": "personal-roboport-mk2-equipment",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 20,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "firearm-magazine",
+          "count": 1
+        },
+        {
+          "name": "steel-plate",
+          "count": 1
+        },
+        {
+          "name": "copper-plate",
+          "count": 5
+        }
+      ],
+      "output": {
+        "name": "piercing-rounds-magazine",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 3,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "shotgun-shell",
+          "count": 2
+        },
+        {
+          "name": "copper-plate",
+          "count": 5
+        },
+        {
+          "name": "steel-plate",
+          "count": 2
+        }
+      ],
+      "output": {
+        "name": "piercing-shotgun-shell",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 8,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "iron-plate",
+          "count": 1
+        }
+      ],
+      "output": {
+        "name": "pipe",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "pipe",
+          "count": 10
+        },
+        {
+          "name": "iron-plate",
+          "count": 5
+        }
+      ],
+      "output": {
+        "name": "pipe-to-ground",
+        "count": 2
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "copper-plate",
+          "count": 5
+        },
+        {
+          "name": "iron-plate",
+          "count": 5
+        }
+      ],
+      "output": {
+        "name": "pistol",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "petroleum-gas",
+          "count": 20
+        },
+        {
+          "name": "coal",
+          "count": 1
+        }
+      ],
+      "output": {
+        "name": "plastic-bar",
+        "count": 2
+      },
+      "machine": "Chemical Plant",
+      "craftingTime": 1,
+      "maxProductivityModifier": 1.3
+    },
+    {
+      "input": [
+        {
+          "name": "steel-plate",
+          "count": 3
+        },
+        {
+          "name": "electronic-circuit",
+          "count": 3
+        },
+        {
+          "name": "coal",
+          "count": 10
+        }
+      ],
+      "output": {
+        "name": "poison-capsule",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 8,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "processing-unit",
+          "count": 40
+        },
+        {
+          "name": "electric-engine-unit",
+          "count": 20
+        },
+        {
+          "name": "steel-plate",
+          "count": 40
+        }
+      ],
+      "output": {
+        "name": "power-armor",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 20,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "effectivity-module-2",
+          "count": 25
+        },
+        {
+          "name": "speed-module-2",
+          "count": 25
+        },
+        {
+          "name": "processing-unit",
+          "count": 60
+        },
+        {
+          "name": "electric-engine-unit",
+          "count": 40
+        },
+        {
+          "name": "low-density-structure",
+          "count": 30
+        }
+      ],
+      "output": {
+        "name": "power-armor-mk2",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 25,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "iron-plate",
+          "count": 5
+        },
+        {
+          "name": "copper-cable",
+          "count": 5
+        },
+        {
+          "name": "electronic-circuit",
+          "count": 2
+        }
+      ],
+      "output": {
+        "name": "power-switch",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 2,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "electronic-circuit",
+          "count": 20
+        },
+        {
+          "name": "advanced-circuit",
+          "count": 2
+        },
+        {
+          "name": "sulfuric-acid",
+          "count": 5
+        }
+      ],
+      "output": {
+        "name": "processing-unit",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 10,
+      "maxProductivityModifier": 1.4
+    },
+    {
+      "input": [
+        {
+          "name": "electric-furnace",
+          "count": 1
+        },
+        {
+          "name": "productivity-module",
+          "count": 1
+        },
+        {
+          "name": "rail",
+          "count": 30
+        }
+      ],
+      "output": {
+        "name": "production-science-pack",
+        "count": 3
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 21,
+      "maxProductivityModifier": 1.4
+    },
+    {
+      "input": [
+        {
+          "name": "advanced-circuit",
+          "count": 5
+        },
+        {
+          "name": "electronic-circuit",
+          "count": 5
+        }
+      ],
+      "output": {
+        "name": "productivity-module",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 15,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "productivity-module",
+          "count": 4
+        },
+        {
+          "name": "advanced-circuit",
+          "count": 5
+        },
+        {
+          "name": "processing-unit",
+          "count": 5
+        }
+      ],
+      "output": {
+        "name": "productivity-module-2",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 30,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "productivity-module-2",
+          "count": 5
+        },
+        {
+          "name": "advanced-circuit",
+          "count": 5
+        },
+        {
+          "name": "processing-unit",
+          "count": 5
+        }
+      ],
+      "output": {
+        "name": "productivity-module-3",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 60,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "iron-plate",
+          "count": 3
+        },
+        {
+          "name": "iron-stick",
+          "count": 4
+        },
+        {
+          "name": "copper-cable",
+          "count": 5
+        },
+        {
+          "name": "electronic-circuit",
+          "count": 4
+        }
+      ],
+      "output": {
+        "name": "programmable-speaker",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 2,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "engine-unit",
+          "count": 1
+        },
+        {
+          "name": "steel-plate",
+          "count": 1
+        },
+        {
+          "name": "pipe",
+          "count": 1
+        }
+      ],
+      "output": {
+        "name": "pump",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 2,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "steel-plate",
+          "count": 5
+        },
+        {
+          "name": "iron-gear-wheel",
+          "count": 10
+        },
+        {
+          "name": "electronic-circuit",
+          "count": 5
+        },
+        {
+          "name": "pipe",
+          "count": 10
+        }
+      ],
+      "output": {
+        "name": "pumpjack",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "electronic-circuit",
+          "count": 5
+        },
+        {
+          "name": "iron-gear-wheel",
+          "count": 5
+        },
+        {
+          "name": "iron-plate",
+          "count": 10
+        }
+      ],
+      "output": {
+        "name": "radar",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "stone",
+          "count": 1
+        },
+        {
+          "name": "iron-stick",
+          "count": 1
+        },
+        {
+          "name": "steel-plate",
+          "count": 1
+        }
+      ],
+      "output": {
+        "name": "rail",
+        "count": 2
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "electronic-circuit",
+          "count": 1
+        },
+        {
+          "name": "iron-plate",
+          "count": 5
+        }
+      ],
+      "output": {
+        "name": "rail-chain-signal",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "electronic-circuit",
+          "count": 1
+        },
+        {
+          "name": "iron-plate",
+          "count": 5
+        }
+      ],
+      "output": {
+        "name": "rail-signal",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "electronic-circuit",
+          "count": 1
+        },
+        {
+          "name": "copper-cable",
+          "count": 1
+        }
+      ],
+      "output": {
+        "name": "red-wire",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "concrete",
+          "count": 20
+        },
+        {
+          "name": "iron-stick",
+          "count": 8
+        },
+        {
+          "name": "steel-plate",
+          "count": 1
+        },
+        {
+          "name": "water",
+          "count": 100
+        }
+      ],
+      "output": {
+        "name": "refined-concrete",
+        "count": 10
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 15,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "refined-concrete",
+          "count": 10
+        }
+      ],
+      "output": {
+        "name": "refined-hazard-concrete",
+        "count": 10
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.25,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "electronic-circuit",
+          "count": 2
+        },
+        {
+          "name": "iron-gear-wheel",
+          "count": 2
+        }
+      ],
+      "output": {
+        "name": "repair-pack",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "steel-plate",
+          "count": 45
+        },
+        {
+          "name": "iron-gear-wheel",
+          "count": 45
+        },
+        {
+          "name": "advanced-circuit",
+          "count": 45
+        }
+      ],
+      "output": {
+        "name": "roboport",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "electronic-circuit",
+          "count": 1
+        },
+        {
+          "name": "explosives",
+          "count": 1
+        },
+        {
+          "name": "iron-plate",
+          "count": 2
+        }
+      ],
+      "output": {
+        "name": "rocket",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 8,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "processing-unit",
+          "count": 1
+        },
+        {
+          "name": "speed-module",
+          "count": 1
+        }
+      ],
+      "output": {
+        "name": "rocket-control-unit",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 30,
+      "maxProductivityModifier": 1.4
+    },
+    {
+      "input": [
+        {
+          "name": "solid-fuel",
+          "count": 10
+        },
+        {
+          "name": "light-oil",
+          "count": 10
+        }
+      ],
+      "output": {
+        "name": "rocket-fuel",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 30,
+      "maxProductivityModifier": 1.4
+    },
+    {
+      "input": [
+        {
+          "name": "iron-plate",
+          "count": 5
+        },
+        {
+          "name": "iron-gear-wheel",
+          "count": 5
+        },
+        {
+          "name": "electronic-circuit",
+          "count": 5
+        }
+      ],
+      "output": {
+        "name": "rocket-launcher",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 10,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "steel-plate",
+          "count": 1000
+        },
+        {
+          "name": "concrete",
+          "count": 1000
+        },
+        {
+          "name": "pipe",
+          "count": 100
+        },
+        {
+          "name": "processing-unit",
+          "count": 200
+        },
+        {
+          "name": "electric-engine-unit",
+          "count": 200
+        }
+      ],
+      "output": {
+        "name": "rocket-silo",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 30,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "low-density-structure",
+          "count": 100
+        },
+        {
+          "name": "solar-panel",
+          "count": 100
+        },
+        {
+          "name": "accumulator",
+          "count": 100
+        },
+        {
+          "name": "radar",
+          "count": 5
+        },
+        {
+          "name": "processing-unit",
+          "count": 100
+        },
+        {
+          "name": "rocket-fuel",
+          "count": 50
+        }
+      ],
+      "output": {
+        "name": "satellite",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "iron-plate",
+          "count": 15
+        },
+        {
+          "name": "iron-gear-wheel",
+          "count": 5
+        },
+        {
+          "name": "copper-plate",
+          "count": 10
+        },
+        {
+          "name": "wood",
+          "count": 5
+        }
+      ],
+      "output": {
+        "name": "shotgun",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 10,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "copper-plate",
+          "count": 2
+        },
+        {
+          "name": "iron-plate",
+          "count": 2
+        }
+      ],
+      "output": {
+        "name": "shotgun-shell",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 3,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "steel-plate",
+          "count": 2
+        },
+        {
+          "name": "electronic-circuit",
+          "count": 2
+        },
+        {
+          "name": "coal",
+          "count": 5
+        }
+      ],
+      "output": {
+        "name": "slowdown-capsule",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 8,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "wood",
+          "count": 1
+        },
+        {
+          "name": "copper-cable",
+          "count": 2
+        }
+      ],
+      "output": {
+        "name": "small-electric-pole",
+        "count": 2
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "electronic-circuit",
+          "count": 1
+        },
+        {
+          "name": "copper-cable",
+          "count": 3
+        },
+        {
+          "name": "iron-plate",
+          "count": 1
+        }
+      ],
+      "output": {
+        "name": "small-lamp",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "steel-plate",
+          "count": 5
+        },
+        {
+          "name": "electronic-circuit",
+          "count": 15
+        },
+        {
+          "name": "copper-plate",
+          "count": 5
+        }
+      ],
+      "output": {
+        "name": "solar-panel",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 10,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "solar-panel",
+          "count": 1
+        },
+        {
+          "name": "advanced-circuit",
+          "count": 2
+        },
+        {
+          "name": "steel-plate",
+          "count": 5
+        }
+      ],
+      "output": {
+        "name": "solar-panel-equipment",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 10,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "petroleum-gas",
+          "count": 20
+        }
+      ],
+      "output": {
+        "name": "solid-fuel",
+        "count": 1
+      },
+      "machine": "Chemical Plant",
+      "craftingTime": 2,
+      "maxProductivityModifier": 1.3
+    },
+    {
+      "input": [
+        {
+          "name": "advanced-circuit",
+          "count": 5
+        },
+        {
+          "name": "electronic-circuit",
+          "count": 5
+        }
+      ],
+      "output": {
+        "name": "speed-module",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 15,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "speed-module",
+          "count": 4
+        },
+        {
+          "name": "advanced-circuit",
+          "count": 5
+        },
+        {
+          "name": "processing-unit",
+          "count": 5
+        }
+      ],
+      "output": {
+        "name": "speed-module-2",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 30,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "speed-module-2",
+          "count": 5
+        },
+        {
+          "name": "advanced-circuit",
+          "count": 5
+        },
+        {
+          "name": "processing-unit",
+          "count": 5
+        }
+      ],
+      "output": {
+        "name": "speed-module-3",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 60,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "exoskeleton-equipment",
+          "count": 4
+        },
+        {
+          "name": "fusion-reactor-equipment",
+          "count": 2
+        },
+        {
+          "name": "rocket-launcher",
+          "count": 4
+        },
+        {
+          "name": "rocket-control-unit",
+          "count": 16
+        },
+        {
+          "name": "low-density-structure",
+          "count": 150
+        },
+        {
+          "name": "radar",
+          "count": 2
+        },
+        {
+          "name": "effectivity-module-3",
+          "count": 2
+        },
+        {
+          "name": "raw-fish",
+          "count": 1
+        }
+      ],
+      "output": {
+        "name": "spidertron",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 10,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "electronic-circuit",
+          "count": 5
+        },
+        {
+          "name": "iron-plate",
+          "count": 5
+        },
+        {
+          "name": "transport-belt",
+          "count": 4
+        }
+      ],
+      "output": {
+        "name": "splitter",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 1,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "stack-inserter",
+          "count": 1
+        },
+        {
+          "name": "electronic-circuit",
+          "count": 5
+        }
+      ],
+      "output": {
+        "name": "stack-filter-inserter",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "iron-gear-wheel",
+          "count": 15
+        },
+        {
+          "name": "electronic-circuit",
+          "count": 15
+        },
+        {
+          "name": "advanced-circuit",
+          "count": 1
+        },
+        {
+          "name": "fast-inserter",
+          "count": 1
+        }
+      ],
+      "output": {
+        "name": "stack-inserter",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "iron-gear-wheel",
+          "count": 8
+        },
+        {
+          "name": "pipe",
+          "count": 5
+        },
+        {
+          "name": "iron-plate",
+          "count": 10
+        }
+      ],
+      "output": {
+        "name": "steam-engine",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "iron-gear-wheel",
+          "count": 50
+        },
+        {
+          "name": "copper-plate",
+          "count": 50
+        },
+        {
+          "name": "pipe",
+          "count": 20
+        }
+      ],
+      "output": {
+        "name": "steam-turbine",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 3,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "steel-plate",
+          "count": 8
+        }
+      ],
+      "output": {
+        "name": "steel-chest",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "steel-plate",
+          "count": 6
+        },
+        {
+          "name": "stone-brick",
+          "count": 10
+        }
+      ],
+      "output": {
+        "name": "steel-furnace",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 3,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "iron-plate",
+          "count": 5
+        }
+      ],
+      "output": {
+        "name": "steel-plate",
+        "count": 1
+      },
+      "machine": "Furnace",
+      "craftingTime": 16,
+      "maxProductivityModifier": 1.2
+    },
+    {
+      "input": [
+        {
+          "name": "stone",
+          "count": 2
+        }
+      ],
+      "output": {
+        "name": "stone-brick",
+        "count": 1
+      },
+      "machine": "Furnace",
+      "craftingTime": 3.2,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "stone",
+          "count": 5
+        }
+      ],
+      "output": {
+        "name": "stone-furnace",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "stone-brick",
+          "count": 5
+        }
+      ],
+      "output": {
+        "name": "stone-wall",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "iron-plate",
+          "count": 20
+        },
+        {
+          "name": "steel-plate",
+          "count": 5
+        }
+      ],
+      "output": {
+        "name": "storage-tank",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 3,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "iron-gear-wheel",
+          "count": 10
+        },
+        {
+          "name": "copper-plate",
+          "count": 5
+        },
+        {
+          "name": "iron-plate",
+          "count": 10
+        }
+      ],
+      "output": {
+        "name": "submachine-gun",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 10,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "steel-plate",
+          "count": 10
+        },
+        {
+          "name": "advanced-circuit",
+          "count": 5
+        },
+        {
+          "name": "copper-plate",
+          "count": 5
+        }
+      ],
+      "output": {
+        "name": "substation",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "water",
+          "count": 30
+        },
+        {
+          "name": "petroleum-gas",
+          "count": 30
+        }
+      ],
+      "output": {
+        "name": "sulfur",
+        "count": 2
+      },
+      "machine": "Chemical Plant",
+      "craftingTime": 1,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "sulfur",
+          "count": 5
+        },
+        {
+          "name": "iron-plate",
+          "count": 1
+        },
+        {
+          "name": "water",
+          "count": 100
+        }
+      ],
+      "output": {
+        "name": "sulfuric-acid",
+        "count": 50
+      },
+      "machine": "Chemical Plant",
+      "craftingTime": 1,
+      "maxProductivityModifier": 1.3
+    },
+    {
+      "input": [
+        {
+          "name": "engine-unit",
+          "count": 32
+        },
+        {
+          "name": "steel-plate",
+          "count": 50
+        },
+        {
+          "name": "iron-gear-wheel",
+          "count": 15
+        },
+        {
+          "name": "advanced-circuit",
+          "count": 10
+        }
+      ],
+      "output": {
+        "name": "tank",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "electronic-circuit",
+          "count": 5
+        },
+        {
+          "name": "iron-plate",
+          "count": 6
+        },
+        {
+          "name": "iron-stick",
+          "count": 6
+        },
+        {
+          "name": "steel-plate",
+          "count": 3
+        }
+      ],
+      "output": {
+        "name": "train-stop",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "iron-plate",
+          "count": 1
+        },
+        {
+          "name": "iron-gear-wheel",
+          "count": 1
+        }
+      ],
+      "output": {
+        "name": "transport-belt",
+        "count": 2
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "iron-plate",
+          "count": 10
+        },
+        {
+          "name": "transport-belt",
+          "count": 5
+        }
+      ],
+      "output": {
+        "name": "underground-belt",
+        "count": 2
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 1,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "cannon-shell",
+          "count": 1
+        },
+        {
+          "name": "uranium-238",
+          "count": 1
+        }
+      ],
+      "output": {
+        "name": "uranium-cannon-shell",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 12,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "iron-plate",
+          "count": 10
+        },
+        {
+          "name": "uranium-235",
+          "count": 1
+        },
+        {
+          "name": "uranium-238",
+          "count": 19
+        }
+      ],
+      "output": {
+        "name": "uranium-fuel-cell",
+        "count": 10
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 10,
+      "maxProductivityModifier": 1.4
+    },
+    {
+      "input": [
+        {
+          "name": "piercing-rounds-magazine",
+          "count": 1
+        },
+        {
+          "name": "uranium-238",
+          "count": 1
+        }
+      ],
+      "output": {
+        "name": "uranium-rounds-magazine",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 10,
+      "maxProductivityModifier": 1
+    },
+    {
+      "input": [
+        {
+          "name": "low-density-structure",
+          "count": 3
+        },
+        {
+          "name": "processing-unit",
+          "count": 2
+        },
+        {
+          "name": "flying-robot-frame",
+          "count": 1
+        }
+      ],
+      "output": {
+        "name": "utility-science-pack",
+        "count": 3
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 21,
+      "maxProductivityModifier": 1.4
+    },
+    {
+      "input": [
+        {
+          "name": "wood",
+          "count": 2
+        }
+      ],
+      "output": {
+        "name": "wooden-chest",
+        "count": 1
+      },
+      "machine": "Assembly Machine",
+      "craftingTime": 0.5,
+      "maxProductivityModifier": 1
+    }
+  ]
+}

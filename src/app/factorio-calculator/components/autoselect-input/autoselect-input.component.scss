@@ -1,0 +1,58 @@
+@use "../../../../styles/colors.scss" as colors;
+
+#form-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+
+  form {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+#input-element {
+  width: calc(100% - 36px);
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  border-width: 0;
+  padding: 0 16px;
+  background-color: colors.$gray;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 4px;
+  border-color: colors.$dark-white;
+
+  &:focus {
+    outline-width: 0;
+    border-color: colors.$highlight-text-color;
+    background-color: colors.$dark-gray;
+  }
+}
+
+#autocomplete {
+  position: absolute;
+  left: 20px;
+  max-height: 200px;
+  width: 400px;
+  overflow-y: scroll;
+  z-index: 100;
+  background-color: colors.$gray;
+  padding: 10px 0;
+
+  &.hidden {
+    visibility: hidden;
+  }
+  
+  .autocomplete-element {
+    padding: 10px 20px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: colors.$lighter-gray;
+    }
+  }
+}

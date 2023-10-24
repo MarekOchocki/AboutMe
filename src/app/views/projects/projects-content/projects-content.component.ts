@@ -1,5 +1,5 @@
 import { animate, state, style, transition, trigger } from '@angular/animations';
-import { Component, OnDestroy } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Subscription, delay, of } from 'rxjs';
 import { ProjectSectionContent, ProjectsSectionContentService } from 'src/app/services/projects-section-content/projects-section-content.service';
 
@@ -24,10 +24,10 @@ import { ProjectSectionContent, ProjectsSectionContentService } from 'src/app/se
     ]),
   ]
 })
-export class ProjectsContentComponent implements OnDestroy {
+export class ProjectsContentComponent implements OnInit, OnDestroy {
   sectionContent: ProjectSectionContent;
   isVisible: boolean = true;
-  private subscriptions: Subscription;
+  private subscriptions = new Subscription();
 
   private animationSubscription = new Subscription();
   private nextContent: ProjectSectionContent
@@ -35,7 +35,10 @@ export class ProjectsContentComponent implements OnDestroy {
   constructor(private projectsSectionContentService: ProjectsSectionContentService) {
     this.sectionContent = this.projectsSectionContentService.getDefaultSectionContent();
     this.nextContent = this.projectsSectionContentService.getDefaultSectionContent();
-    this.subscriptions = this.projectsSectionContentService.getSectionContent().subscribe(content => this.onContentChange(content));
+  }
+
+  ngOnInit(): void {
+    this.subscriptions = this.projectsSectionContentService.getSectionContent().pipe(delay(10)).subscribe(content => this.onContentChange(content));
     this.startContentChangeAnimation();
   }
 
@@ -43,16 +46,18 @@ export class ProjectsContentComponent implements OnDestroy {
     this.subscriptions.unsubscribe();
   }
 
+
   private onContentChange(newContent: ProjectSectionContent): void {
     this.nextContent = newContent;
     this.startContentChangeAnimation();
   }
 
   private startContentChangeAnimation(): void {
+    if(this.nextContent.projectName === this.projectsSectionContentService.getDefaultSectionContent().projectName) { return;}
     this.isVisible = false;
     this.animationSubscription.unsubscribe();
     this.animationSubscription = of(true).pipe(delay(150)).subscribe(visiblity => {
-      this.isVisible = visiblity
+      this.isVisible = visiblity;
       this.sectionContent = this.nextContent;
     });
   }

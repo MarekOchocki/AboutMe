@@ -73,6 +73,8 @@ export class ProjectsSectionContentService implements OnDestroy {
   }
 
   private getCurrentSectionIdFromUrl(): string {
-    return this.router.url.split('/').slice(2).reduce((sum, el) => `${sum}/${el}`);
+    const urlParts = this.router.url.split('/');
+    if(urlParts.length !== 4) { return ''; }
+    return urlParts.slice(2).reduce((sum, el) => `${sum}/${el}`);
   }
 }

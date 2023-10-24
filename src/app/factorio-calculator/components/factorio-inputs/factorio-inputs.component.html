@@ -1,0 +1,25 @@
+<div>
+  <div id="table-container">
+    <table>
+      <thead>
+        <tr>
+          <th>Ignored Ingredients</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let element of currentInputs">
+          <td>
+            <div class="ingredient-row">
+              <span> &infin; {{ element | kebabToPrettyText }}</span>
+              <button class="delete-button" (click)="deleteItem(element)"> <mat-icon>delete</mat-icon> </button>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div id="new-item-input">
+    <app-autoselect-input (click)="addNewInput($event)" [options]="availableInputs" [placeholder]="'+ Add Item to ignore'"></app-autoselect-input>
+  </div>
+</div>

@@ -74,11 +74,14 @@ export class ProjectsTreeService implements OnDestroy {
   }
 
   public isProjectSelected(projectId: string): boolean {
-    return this.router.url.split('/')[2] === projectId;
+    const urlParts = this.router.url.split('/');
+    return urlParts[2] === projectId;
   }
 
   public isSectionSelected(sectionId: string): boolean {
-    return this.router.url.split('/').slice(2).reduce((sum, el) => `${sum}/${el}`) === sectionId;
+    const urlParts = this.router.url.split('/');
+    if(urlParts.length !== 4) { return false; }
+    return urlParts.slice(2).reduce((sum, el) => `${sum}/${el}`) === sectionId;
   }
 
   private openProjectAfterUrlChange() {

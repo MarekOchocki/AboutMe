@@ -122,7 +122,17 @@
         },
         {
           "name": "Try it",
-          "subsections": []
+          "subsections": [
+            {
+              "title": "Factorio Calculator",
+              "paragraphs": [
+                {
+                  "type": "component",
+                  "htmlTag": "app-factorio-paragraph"
+                }
+              ]
+            }
+          ]
         }
       ]
     }

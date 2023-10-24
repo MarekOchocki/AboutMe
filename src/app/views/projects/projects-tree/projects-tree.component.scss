@@ -2,7 +2,7 @@
 @use "../../../../styles/colors.scss" as colors;
 
 #projects-tree-container {
-  background-color: rgb(63 63 69);
+  background-color: colors.$lighter-gray;
   height: 100%;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   overflow-y: auto;
