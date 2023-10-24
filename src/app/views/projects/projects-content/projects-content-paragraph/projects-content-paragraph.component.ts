@@ -16,7 +16,7 @@ export class ProjectsContentParagraphComponent {
   @ViewChild(CustomParagraphDirective, {static: false}) set setRef(ref: CustomParagraphDirective) {
     if(ref) {
       this.customParagraphChild = ref;
-      this.loadCustomComponent();
+      setTimeout(() => this.loadCustomComponent(), 0);
     }
   }
 
