@@ -28,6 +28,7 @@ import { FactorioProductionRaportComponent } from './factorio-calculator/compone
 import { FactorioAppComponent } from './factorio-calculator/components/factorio-app/factorio-app.component';
 import { KebabToPrettyTextPipe } from './pipes/kebab-to-pretty-text.pipe';
 import { AutoselectInputComponent } from './factorio-calculator/components/autoselect-input/autoselect-input.component';
+import { ProductionNumberInputComponent } from './factorio-calculator/components/factorio-outputs/production-number-input/production-number-input.component';
 
 @NgModule({
   declarations: [
@@ -51,7 +52,8 @@ import { AutoselectInputComponent } from './factorio-calculator/components/autos
     FactorioProductionRaportComponent,
     FactorioAppComponent,
     KebabToPrettyTextPipe,
-    AutoselectInputComponent
+    AutoselectInputComponent,
+    ProductionNumberInputComponent
   ],
   imports: [
     BrowserModule,

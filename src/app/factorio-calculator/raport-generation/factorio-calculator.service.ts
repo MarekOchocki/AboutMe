@@ -1,4 +1,3 @@
-import { Injectable } from '@angular/core';
 import { ProductionCalculator } from './calculations/production-calculator';
 import * as recipes from './data/recipes.json';
 import * as outputsJSON from './data/outputs.json';
@@ -9,9 +8,7 @@ import { BehaviorSubject, Observable } from 'rxjs';
 import { Item } from './types/item';
 import { ProductionRaport } from './types/production-raport';
 
-@Injectable({
-  providedIn: 'root'
-})
+
 export class FactorioCalculatorService {
   private productionCalculator: ProductionCalculator;
 
@@ -36,12 +33,10 @@ export class FactorioCalculatorService {
     this.allPossibleInputs = importedInputs.items;
     this.allPossibleOutputs = importedOutputs.items;
 
-    this.currentInputs.next([
-      'wood'
-    ]);
-
     this.updateAvailableInputs();
     this.availableOutputs.next(this.allPossibleOutputs);
+
+    this.addOutput(new Item('processing-unit', 10));
   }
 
   public getCurrentInputs(): Observable<string[]> {
@@ -90,6 +85,22 @@ export class FactorioCalculatorService {
         this.recalculateRaport();
       }
     }
+  }
+
+  public changeOutputAmount(itemName: string, newAmount: number): void {
+    const outputItem = this.currentOutputs.value.find(output => output.name === itemName);
+    if(!outputItem) { return; }
+    outputItem.count = newAmount;
+    this.currentOutputs.next([...this.currentOutputs.value]);
+    this.recalculateRaport();
+  }
+
+  public removeOutput(itemName: string): void {
+    const newOutputs = this.currentOutputs.value.filter(output => output.name !== itemName);
+    if(newOutputs.length === this.currentOutputs.value.length) { return; }
+    this.currentOutputs.next(newOutputs);
+    this.updateAvailableOutputs();
+    this.recalculateRaport();
   }
 
   public recalculateRaport(): void {

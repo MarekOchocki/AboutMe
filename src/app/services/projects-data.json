@@ -129,6 +129,10 @@
                 {
                   "type": "component",
                   "htmlTag": "app-factorio-paragraph"
+                },
+                {
+                  "type": "text",
+                  "text": "Kebab -oOo-."
                 }
               ]
             }

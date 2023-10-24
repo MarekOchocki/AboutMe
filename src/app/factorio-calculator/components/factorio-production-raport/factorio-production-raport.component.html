@@ -1,1 +1,29 @@
-<p>factorio-production-raport works!</p>
+
+<div id="table-container">
+  <table>
+    <thead>
+      <tr>
+        <th>Item</th>
+        <th>Type</th>
+        <th>Crafting Speed</th>
+        <th># Machines</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let step of raport.productionSteps">
+        <td>
+            {{step.itemName}}
+        </td>
+        <td>
+            {{step.machineType}}
+        </td>
+        <td>
+            {{step.craftingSpeedNeeded | number: '1.2-2' }}
+        </td>
+        <td>
+            {{ ceil(step.machinesAmount) | number: '1.0-0' }}
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

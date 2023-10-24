@@ -1,2 +1,30 @@
-<div id="outputs-container">
+<div>
+  <div id="table-container">
+    <table>
+      <thead>
+        <tr>
+          <th>Production per Minute</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let element of currentOutputs">
+          <td>
+            <div class="ingredient-row">
+              <app-production-number-input (modelChange)="onProductionCountChange($event, element)" [(model)]="element.count">
+              </app-production-number-input>
+              <span>
+                {{ element.name | kebabToPrettyText }}
+              </span>
+              <button class="delete-button" (click)="deleteItem(element.name)"> <mat-icon>delete</mat-icon> </button>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div id="new-item-input">
+    <app-autoselect-input (click)="addNewOutput($event)" [options]="availableOutputs"
+      [placeholder]="'+ Add Item to ignore'"></app-autoselect-input>
+  </div>
 </div>

@@ -1,4 +1,5 @@
 import { Item } from "../types/item";
+import { MachineType } from "../types/machine-type";
 import { ProductionRaport } from "../types/production-raport";
 import { ProductionStep } from "../types/production-step";
 import { RecipeList } from "../types/recipe-list";
@@ -20,10 +21,16 @@ export class ProductionCalculator {
         const result: ProductionStep[] = [];
         this.itemsToCraftingSpeedNeeded.forEach((value, key) => {
             const recipe = this.recipes.getRecipeForItem(key);
-            if(recipe !== undefined)
-                result.push(new ProductionStep(key, value, recipe.machine));
-        })
-        return new ProductionRaport(result, this.basicResourceNeededPerMinute);
+            if(recipe !== undefined && value > 0) {
+                const machineCraftingSpeed = this.machineTypeToCraftingSpeed(recipe.machine);
+                const machinesAmount = value / (machineCraftingSpeed * this.productivityToSpeedRatio(recipe.maxProductivityModifier));
+                result.push(new ProductionStep(key, value, recipe.machine, machinesAmount));
+            }
+        });
+        const raport = new ProductionRaport(result, this.basicResourceNeededPerMinute);
+        this.itemsToCraftingSpeedNeeded = new Map<ItemName, CraftingSpeed>();
+        this.basicResourceNeededPerMinute = [];
+        return raport;
     }
 
     private addCraftingSpeedForItem(itemsPerMinute: Item, inputsToIgnore: string[]): void {
@@ -49,5 +56,25 @@ export class ProductionCalculator {
 
     private storeBasicResourceNeeded(itemPerMinute: Item): void {
         this.basicResourceNeededPerMinute.push(itemPerMinute);
+    }
+
+    private machineTypeToCraftingSpeed(machineType: MachineType): number {
+        if(machineType === MachineType.AssembyMachine) { 
+            return 1.25;
+        } else
+        if(machineType === MachineType.ChemicalPlant) { 
+            return 1;
+        } else
+        if(machineType === MachineType.Furnace) { 
+            return 2;
+        }
+        return 1;
+    }
+
+    private productivityToSpeedRatio(maxProductivity: number): number {
+        if(maxProductivity === 1) { return 1; }
+        const bonus = maxProductivity - 1;
+        const speedPenalty = bonus * 1.5;
+        return 1 - speedPenalty;
     }
 }

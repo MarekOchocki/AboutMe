@@ -6,7 +6,8 @@ import { Item } from '../../raport-generation/types/item';
 @Component({
   selector: 'app-factorio-app',
   templateUrl: './factorio-app.component.html',
-  styleUrls: ['./factorio-app.component.scss']
+  styleUrls: ['./factorio-app.component.scss'],
+  providers: [ FactorioCalculatorService ]
 })
 export class FactorioAppComponent implements OnDestroy {
   public currentInputs: string[] = [];
