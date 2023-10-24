@@ -12,7 +12,7 @@
     <tbody>
       <tr *ngFor="let step of raport.productionSteps">
         <td>
-            {{step.itemName}}
+            {{step.itemName | kebabToPrettyText }}
         </td>
         <td>
             {{step.machineType}}

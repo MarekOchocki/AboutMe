@@ -114,25 +114,41 @@
       "sections": [
         {
           "name": "Overview",
-          "subsections": []
+          "subsections": [
+            {
+              "title": "Factorio Calculator Overview",
+              "paragraphs": [
+                {
+                  "type": "text",
+                  "text": "This is where the Overview text will be."
+                }
+              ]
+            }
+          ]
         },
         {
           "name": "Features",
-          "subsections": []
+          "subsections": [
+            {
+              "title": "Factorio Calculator Overview",
+              "paragraphs": [
+                {
+                  "type": "text",
+                  "text": "This is where the Features text will be."
+                }
+              ]
+            }
+          ]
         },
         {
           "name": "Try it",
           "subsections": [
             {
-              "title": "Factorio Calculator",
+              "title": "Factorio Calculator Demo",
               "paragraphs": [
                 {
                   "type": "component",
                   "htmlTag": "app-factorio-paragraph"
-                },
-                {
-                  "type": "text",
-                  "text": "Kebab -oOo-."
                 }
               ]
             }
