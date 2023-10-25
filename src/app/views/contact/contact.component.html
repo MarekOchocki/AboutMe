@@ -1,1 +1,29 @@
-<p style="font-size: 50px; color: white">contact works!</p>
+<div @navigationEnter id="contact-content-container">
+  <div id="contact-content">
+    <div id="cards">
+
+      <div class="contact-entry">
+        <img src="/assets/linkedin-svgrepo-com.svg" class="contact-image">
+        <a class="contact-entry-text" href='https://www.linkedin.com/in/marek-ochocki/' target='_blank'>
+          LinkedIn Profile
+        </a>
+      </div>
+      <div class="contact-entry">
+        <div id="email-container">
+          <mat-icon class="contact-icon">mail</mat-icon>
+        </div>
+        <div class="contact-entry-text email-text" id="email-button" [ngClass]="{'copied-email': isTextHighlighted()}"
+          (click)="copyEmailAddress()">
+          {{getDisplayText()}}
+        </div>
+      </div>
+      <div class="contact-entry">
+        <img src="./assets/github-mark-white.svg" class="contact-image">
+        <a class="contact-entry-text" href='https://github.com/MarekOchocki' target='_blank'>
+          GitHub Page
+        </a>
+      </div>
+    </div>
+
+  </div>
+</div>

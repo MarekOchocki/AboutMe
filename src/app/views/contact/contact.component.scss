@@ -1,0 +1,84 @@
+@use '../../../styles/colors.scss' as colors;
+
+#contact-content-container {
+  display: grid;
+  grid-template-columns: 1fr 900px 1fr;
+  height: calc(100% - 40px);
+}
+
+#contact-content {
+  margin: 80px 0;
+  grid-column: 2 / 3;
+}
+
+#cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-entry {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: 20px;
+  font-weight: 400;
+  margin: 20px;
+
+  background-color: colors.$lighter-gray;
+  box-shadow: 0 0 15px black;
+
+  width: 300px;
+  height: 300px;
+  min-width: 300px;
+
+  border-radius: 10px;
+}
+
+.contact-image {
+  margin: 60px;
+  width: 120px;
+}
+
+.contact-entry-text {
+  padding: 10px;
+  margin: 0 20px 20px;
+  width: calc(100% - 60px);
+  background-color: colors.$dark-gray;
+  border-color: colors.$highlight-text-color;
+  border-width: 0px;
+  border-style: solid;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.email-text {
+  color: colors.$white-text-color;
+
+  &:hover {
+    background-color: colors.$gray;
+  }
+}
+
+.copied-email {
+  color: colors.$highlight-text-color;
+}
+
+#email-container {
+  margin: 108px;
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-icon {
+  transform: scale(6);
+}
+
+#email-button {
+  cursor: pointer;
+}
