@@ -116,25 +116,32 @@
           "name": "Overview",
           "subsections": [
             {
-              "title": "Factorio Calculator Overview",
+              "title": "Factorio: A Journey of Automation",
               "paragraphs": [
                 {
                   "type": "text",
-                  "text": "This is where the Overview text will be."
+                  "text": "Factorio is a gaming masterpiece that dives into the art of automation. In this game, players embark on a quest as survivors who have crash-landed on an alien planet after their spaceship's mishap. To conquer the game's ultimate challenge, constructing a rocket from the planet's resources, players soon realize that achieving this task manually is a time-consuming endeavor. Consequently, they shift their focus toward crafting machines capable of doing the heavy lifting for them."
+                },
+                {
+                  "type": "text",
+                  "text": "The path to mastery in Factorio is paved with an array of logistical and design puzzles that players must solve. As they progress through the game, they eventually reach the endgame phase, where nearly every potential unlockable has been acquired. At this point, manufacturing high-tech items requires the orchestration of complex, multi-step production processes."
+                },
+                {
+                  "type": "video",
+                  "videoUrl": "./assets/video/factorio-working.mp4"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "name": "Features",
-          "subsections": [
+            },
             {
-              "title": "Factorio Calculator Overview",
+              "title": "Introducing the Calculator for Production Steps",
               "paragraphs": [
                 {
                   "type": "text",
-                  "text": "This is where the Features text will be."
+                  "text": "To empower players in their quest for efficient, large-scale factories, mod creators and software developers created tools that simplify intricate calculations. Among my projects, I've developed one of such tools, the Factorio Calculator. This tool is purpose-built to dissect factories into manageable production steps and provide users with the optimal machine ratios, ensuring that no precious resources go to waste. With this calculator, players are be able to design, plan, and execute their production processes with precision, helping them achieve automation excellence in the world of Factorio."
+                },
+                {
+                  "type": "video",
+                  "videoUrl": "./assets/video/calculator-demo.mp4"
                 }
               ]
             }
