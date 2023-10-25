@@ -4,24 +4,25 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .video-element-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .image-element {
-  width: calc(100% - 80px);
+  max-width: calc(100% - 80px);
+  box-shadow: 0 0 15px black;
 }
 
 .video-element {
-  width: calc(100% - 80px);
+  max-width: calc(100% - 80px);
   box-shadow: 0 0 15px black;
 }
 

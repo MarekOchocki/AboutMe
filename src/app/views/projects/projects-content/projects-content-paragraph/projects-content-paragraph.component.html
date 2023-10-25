@@ -1,8 +1,8 @@
 
 <div *ngIf="paragraph" class="paragraph-container">
   <p *ngIf="paragraph.type === 'text'" class="text-element" [innerHTML]="paragraph.text"></p>
-  <div class="video-element-container">
-    <video *ngIf="paragraph.type === 'video'" autoplay muted loop playsinline [muted]="'muted'" class="video-element">
+  <div class="video-element-container" *ngIf="paragraph.type === 'video'">
+    <video autoplay muted loop playsinline [muted]="'muted'" class="video-element">
       <source [src]="paragraph.videoUrl" type="video/mp4">
       Mp4 playback not supported on your device.
     </video>

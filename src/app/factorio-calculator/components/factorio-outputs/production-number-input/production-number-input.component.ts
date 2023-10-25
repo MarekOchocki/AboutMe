@@ -22,4 +22,9 @@ export class ProductionNumberInputComponent {
     this.currentValue = `${currentValueAsNumber}`;
     this.modelChange.emit(currentValueAsNumber);
   }
+
+  blurInput($event: any) {
+    var target = $event.target;
+    target?.blur();
+}
 }

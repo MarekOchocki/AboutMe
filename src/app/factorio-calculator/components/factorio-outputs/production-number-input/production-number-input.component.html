@@ -1,4 +1,4 @@
 <div id="form-container">
   <input autocomplete="off" id="input-element" type="text" placeholder="Items amount" aria-label="items number"
-    [(ngModel)]="currentValue" (focusout)="formatValue()">
+    [(ngModel)]="currentValue" (focusout)="formatValue()" (keyup.enter)="blurInput($event)">
 </div>

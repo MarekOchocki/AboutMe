@@ -1,6 +1,7 @@
 import { Component, ElementRef, EventEmitter, HostListener, Input, Output } from '@angular/core';
 import { FormControl } from '@angular/forms';
 import { Observable, map, of, startWith } from 'rxjs';
+import { KebabToPrettyTextPipe } from 'src/app/pipes/kebab-to-pretty-text.pipe';
 
 @Component({
   selector: 'app-autoselect-input',
@@ -22,7 +23,7 @@ export class AutoselectInputComponent {
       startWith(''),
       map(value => {
         const filterValue = value?.toLocaleLowerCase() ?? '';
-        return this.availableOptions.filter(o => o.toLocaleLowerCase().includes(filterValue))
+        return this.availableOptions.filter(o => this.machesPrettifiedText(o, filterValue));
       }),
     );
   }
@@ -48,5 +49,10 @@ export class AutoselectInputComponent {
     if(!this.eRef.nativeElement.contains(event.target)) {
       this.onFocusOut();
     }
+  }
+
+  private machesPrettifiedText(value: string, filterValue: string): boolean {
+    const pipe = new KebabToPrettyTextPipe();
+    return pipe.transform(value).toLocaleLowerCase().includes(filterValue);
   }
 }

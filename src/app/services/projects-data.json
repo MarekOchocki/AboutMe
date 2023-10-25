@@ -116,19 +116,19 @@
           "name": "Overview",
           "subsections": [
             {
-              "title": "Factorio: A Journey of Automation",
+              "title": "Factorio: A Game about Automation",
               "paragraphs": [
                 {
                   "type": "text",
                   "text": "Factorio is a gaming masterpiece that dives into the art of automation. In this game, players embark on a quest as survivors who have crash-landed on an alien planet after their spaceship's mishap. To conquer the game's ultimate challenge, constructing a rocket from the planet's resources, players soon realize that achieving this task manually is a time-consuming endeavor. Consequently, they shift their focus toward crafting machines capable of doing the heavy lifting for them."
                 },
                 {
-                  "type": "text",
-                  "text": "The path to mastery in Factorio is paved with an array of logistical and design puzzles that players must solve. As they progress through the game, they eventually reach the endgame phase, where nearly every potential unlockable has been acquired. At this point, manufacturing high-tech items requires the orchestration of complex, multi-step production processes."
-                },
-                {
                   "type": "video",
                   "videoUrl": "./assets/video/factorio-working.mp4"
+                },
+                {
+                  "type": "text",
+                  "text": "The path to mastery in Factorio is paved with an array of logistical and design puzzles that players must solve. As they progress through the game, they eventually reach the endgame phase, where nearly every potential unlockable has been acquired. At this point, manufacturing high-tech items requires the orchestration of complex, multi-step production processes."
                 }
               ]
             },
@@ -137,11 +137,67 @@
               "paragraphs": [
                 {
                   "type": "text",
-                  "text": "To empower players in their quest for efficient, large-scale factories, mod creators and software developers created tools that simplify intricate calculations. Among my projects, I've developed one of such tools, the Factorio Calculator. This tool is purpose-built to dissect factories into manageable production steps and provide users with the optimal machine ratios, ensuring that no precious resources go to waste. With this calculator, players are be able to design, plan, and execute their production processes with precision, helping them achieve automation excellence in the world of Factorio."
+                  "text": "To empower players in their quest for efficient, large-scale factories, mod creators and software developers created tools that simplify intricate calculations. Among my projects, I've developed one of such tools, the Factorio Calculator. This tool is purpose-built to dissect factories into manageable production steps and provide users with the optimal machine ratios, ensuring that no precious resources go to waste. With this calculator, players are able to design, plan, and execute their production processes with precision, helping them achieve automation excellence in the world of Factorio."
                 },
                 {
                   "type": "video",
                   "videoUrl": "./assets/video/calculator-demo.mp4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Features",
+          "subsections": [
+            {
+              "title": "Calculating Production Steps",
+              "paragraphs": [
+                {
+                  "type": "text",
+                  "text": "Every item that can be crafted in Factorio is made out of other simpler ingredients. These ingredients are themselves made out of other items and so forth until the ingredients become the raw resources mined from the planet. The Factorio Calculator gathers information about every recipe that needs to be used to produce the final product and groups them by produced ingredients."
+                },
+                {
+                  "type": "text",
+                  "text": "To start working with the Calculator the user needs to fill the \"Production per Minute\" section with all the items that the factory should produce. All inputs are equipped with autoselection feature that can be easily filtered by entering part of item's name in the text field. After each change the table below will be filled up with production steps to achieve this goal in the most efficient way."
+                },
+                {
+                  "type": "image",
+                  "imageSrc": "./assets/factorio-processing-unit-recipe.png"
+                },
+                {
+                  "type": "text",
+                  "text": "In the picture above there is an example of an assembly machine set up to produce processing units. Both circuit ingredients require copper cable as their components so the Calculator will group the copper cable production together to reduce the number of space and infrastructure needed for the whole factory."
+                },
+                {
+                  "type": "image",
+                  "imageSrc": "./assets/factorio-processing-copper-cable-grouping.png"
+                }
+              ]
+            },
+            {
+              "title": "Number of Machines Required and Modules usage",
+              "paragraphs": [
+                {
+                  "type": "text",
+                  "text": "The calculator assumes the most efficient usage of resources and space, therefore calculations regarding every recipe that is able to profit from inserted productivity modules will automatically take that into account. Amount of ingredients needed will be reduced for the recipe and expected crafting speed of machines will be adjusted."
+                },
+                {
+                  "type": "text",
+                  "text": "When building factories with output provided from this tool, the player can choose one of 2 strategies. If nothing will affect the crafting speed of machines used (such as beacons with speed modules) the player should place as many machines as it is stated in the \"# Machines\" column. Otherwise, when crafting speed will be modified by external sources, machines should be placed in such a way and amount that the sum of their crafting speed will equal at least the number in the \"crafting speed\" column."
+                }
+              ]
+            },
+            {
+              "title": "Ignoring Items",
+              "paragraphs": [
+                {
+                  "type": "text",
+                  "text": "Sometimes the player doesn't want to produce everything in one place from raw resources. Often times some types of items will be provided by logistic or railway networks from elsewhere. In such cases the Calculator can be set up to ignore these ingredients. When provided with entries in the \"Ignored Ingredients\" list, the Calculator will treat these items like raw resources and omit production of them."
+                },
+                {
+                  "type": "text",
+                  "text": ""
                 }
               ]
             }
