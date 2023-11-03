@@ -2,11 +2,14 @@ import { ProductionCalculator } from './calculations/production-calculator';
 import * as recipes from './data/recipes.json';
 import * as outputsJSON from './data/outputs.json';
 import * as inputsJSON from './data/inputs.json';
+import * as pako from 'pako';
+import { Buffer } from "buffer";
 import { Recipe, RecipeStruct } from './types/recipe';
 import { RecipeList } from './types/recipe-list';
 import { BehaviorSubject, Observable } from 'rxjs';
 import { Item } from './types/item';
 import { ProductionRaport } from './types/production-raport';
+import { BlueprintRequirement, EndgameGenerator } from '../blueprint-generation/generator/endgame-generator';
 
 
 export class FactorioCalculatorService {
@@ -20,6 +23,8 @@ export class FactorioCalculatorService {
   private currentOutputs = new BehaviorSubject<Item[]>([]);
   private availableOutputs = new BehaviorSubject<string[]>([]);
   private raport = new BehaviorSubject<ProductionRaport | undefined>(undefined);
+
+  private endgameGenerator = new EndgameGenerator();
 
   constructor() {
     const importedRecipes = recipes as {recipes: RecipeStruct[]};
@@ -57,6 +62,14 @@ export class FactorioCalculatorService {
 
   public getRaport(): Observable<ProductionRaport | undefined> {
     return this.raport.asObservable();
+  }
+
+  public calculateBlueprintFromRaport(widthInBeacons: number): string {
+    const requirements: BlueprintRequirement[] = this.raport.getValue()?.productionSteps.map(step => {
+      return new BlueprintRequirement(step.itemName, step.craftingSpeedNeeded);
+    }) ?? [];
+    const blueprint = this.endgameGenerator.createFromRequirements(requirements, widthInBeacons);
+    return this.blueprintObjectToString(blueprint);
   }
 
   public addInput(itemName: string): void {
@@ -116,5 +129,19 @@ export class FactorioCalculatorService {
   private updateAvailableOutputs(): void {
     const newAvailableOutputs = this.allPossibleOutputs.filter(output => this.currentOutputs.value.every(current => current.name !== output));
     this.availableOutputs.next(newAvailableOutputs);
+  }
+
+  private blueprintStringToObject(blueprintString: string): object {
+    const removedVersionByte = blueprintString.slice(1);
+    const decoded64 = Buffer.from(removedVersionByte, 'base64');
+    const jsonString = pako.inflate(decoded64, { to: 'string' });
+    return JSON.parse(jsonString);
+  }
+
+  private blueprintObjectToString(object: object): string {
+    const jsonString = JSON.stringify(object);
+    const encoded = pako.deflate(jsonString);
+    const encoded64 = Buffer.from(encoded).toString('base64');
+    return '0'+encoded64;
   }
 }

@@ -2,4 +2,7 @@
   <app-factorio-inputs id="inputs-component"></app-factorio-inputs>
   <app-factorio-outputs id="outputs-component"></app-factorio-outputs>
   <app-factorio-production-raport id="raport-component"></app-factorio-production-raport>
+  <input autocomplete="off" id="blueprint-width-input" type="number" placeholder="blueprint width"
+    [(ngModel)]="blueprintWidth">
+  <button (click)="onClick()">Generate Blueprint!</button>
 </div>
