@@ -35,7 +35,8 @@ export class EndgameGenerator {
     const filteredRequirements = requirements.filter(r => {
       return this.recipes[r.recipeName] && (
         this.recipes[r.recipeName].category === 'crafting' ||
-        this.recipes[r.recipeName].category === "crafting-with-fluid"
+        this.recipes[r.recipeName].category === "crafting-with-fluid" ||
+        this.recipes[r.recipeName].category === "advanced-crafting"
       );
     });
     if(filteredRequirements.length !== requirements.length) {

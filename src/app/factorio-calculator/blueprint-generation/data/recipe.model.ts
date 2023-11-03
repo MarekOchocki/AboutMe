@@ -6,7 +6,7 @@ export interface FactorioRecipeItem {
 }
 
 export interface FactorioRecipe {
-  category: 'crafting' | 'smelting' | 'centrifuging' | 'chemistry' | "crafting-with-fluid";
+  category: 'crafting' | 'smelting' | 'centrifuging' | 'chemistry' | "crafting-with-fluid" | "advanced-crafting";
   name: string;
   energy_required: number;
   ingredients: FactorioRecipeItem[];
